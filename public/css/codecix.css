@@ -4,6 +4,7 @@
     --primary-color: #02407a;
     --secondary-color: #0467c2;
     --text-secondary: #9A9A9A;
+    --bg-light: #f4fdf8;
 }
 
 html, body, html::after, html::before, body::after, body::before {
@@ -201,3 +202,100 @@ html, body, html::after, html::before, body::after, body::before {
             SECCIÓN CLIENTES
     ================================
 */
+
+.client-section {
+    padding: 3em 0;
+    position: relative;
+    /* background-color: var(--bg-light);  */
+}
+
+@media (max-width: 767.98px) {
+    .client-section {
+        padding: 2em 0; 
+    } 
+}
+
+/* .client-animate {
+    opacity: 0;
+    visibility: hidden; 
+} */
+
+.heading-section h2 {
+    font-size: 25px;
+    font-weight: 800; 
+}
+
+@media (max-width: 767.98px) {
+    .heading-section h2 {
+        font-size: 22px; 
+    } 
+}
+
+#autoplay img {
+	max-width: 100%;
+}
+
+#autoplay {
+	position: relative;
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+#autoplay .slick-slide {
+	text-align: center;
+	margin: 10px;
+}
+
+h4 {
+	margin-top: 2px;
+}
+
+.slick-slide img:hover + h4 {
+	opacity: 1;
+}
+
+.slick-slide h4 {
+	opacity: 0;
+	-webkit-transition: all 150ms ease-in-out;
+	transition: all 150ms ease-in-out;
+}
+
+.slick-prev,
+.slick-next {
+	line-height: 0;
+	font-size: 0;
+	position: absolute;
+	top: 50%;
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-top: -10px;
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	color: transparent;
+	border: none;
+	outline: none;
+}
+
+.slick-next {
+	right: -25px;
+}
+
+.slick-prev {
+	left: -25px;
+}
+
+.slick-next:after {
+	content: "\f054";
+	color: var(--secondary-color);
+	font-size: 30px;
+	font-family: FontAwesome;
+}
+
+.slick-prev:after {
+	content: "\f053";
+	font-size: 30px;
+	font-family: FontAwesome;
+	color: var(--secondary-color);
+}
