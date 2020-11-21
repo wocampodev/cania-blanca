@@ -14082,7 +14082,7 @@ html {
   padding: 0;
   background: var(--bg-color);
   color: var(--font-color);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 body a,
@@ -14120,7 +14120,7 @@ li,
 span {
   -webkit-appearance: none;
   outline: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 a,
@@ -14151,7 +14151,7 @@ h6 {
   margin: 0;
   padding: 0;
   color: var(--heading-color);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 p {

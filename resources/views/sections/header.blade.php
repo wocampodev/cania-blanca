@@ -1,12 +1,6 @@
 <header id="site-header" class="fixed-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg stroke px-0">
-            {{-- <h1>
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <i class="fa fa-cutlery" aria-hidden="true"></i> Foodies
-                </a>
-            </h1> --}}
-               
             <a class="navbar-brand" href="{{ url('/') }}">
                 <img src="{{ asset('assets/images/logo_test.png') }}" alt="Caña Blanca" title="Caña Blanca" style="height:55px;" />
             </a>
@@ -16,7 +10,6 @@
                 <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
                 <span class="navbar-toggler-icon fa icon-close fa-times"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mx-lg-auto">
                     <li class="nav-item active">
