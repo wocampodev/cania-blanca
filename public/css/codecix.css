@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 :root {
+    --primary-color: #02407a;
     --secondary-color: #0467c2;
     --text-secondary: #9A9A9A;
 }
@@ -8,6 +9,12 @@
 html, body, html::after, html::before, body::after, body::before {
     font-family: 'Oswald', sans-serif !important;
 }
+
+/* 
+    ================================
+            SECCIÓN HISTÓRICA
+    ================================
+*/
 
 .blockquote {
     border-left: none;
@@ -117,4 +124,79 @@ html, body, html::after, html::before, body::after, body::before {
         margin-left: 1vw !important;
         padding-bottom: 30px !important;
     }
+}
+
+/* 
+    ================================
+            SECCIÓN CULTURA MOCHE
+    ================================
+*/
+
+.culture-block {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.gradient {
+    background: linear-gradient(120deg,var(--primary-color),var(--secondary-color));
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .culture-block {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+}
+
+.culture-block.website h3 {
+    font-weight: 700;
+}
+
+/* .culture-block.website p {
+    opacity: .9;
+} */
+
+.culture-mockup {
+    margin: auto;
+    margin-top: 30px;
+    max-width: 380px;
+}
+
+@media (min-width: 768px) {
+    .culture-mockup {
+        max-width: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .culture-mockup {
+        margin-top: 0;
+    }
+}
+
+.culture-mockup .screen {
+    border: 1px solid #9c9c9c;
+    border-bottom: none;
+    width: 320px;
+    height: 210px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    left: 15px;
+}
+
+@media (min-width: 768px) {
+    .culture-mockup .screen {
+        width: 420px;
+        height: 310px;
+    }
+}
+
+.culture-mockup .screen .screen-content {
+    border: 1px solid #c5c5c5;
+    background-position: 50%;
+    background-size: cover;
+    height: 100%;
 }
