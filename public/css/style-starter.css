@@ -14251,6 +14251,7 @@ p.white {
   height: 24px;
   padding: 0px 0;
   margin-left: 10px;
+  margin-top: 10px;
   color: var(--heading-color);
 }
 

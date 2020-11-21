@@ -1,15 +1,15 @@
 <header id="site-header" class="fixed-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg stroke px-0">
-            <h1>
+            {{-- <h1>
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <i class="fa fa-cutlery" aria-hidden="true"></i> Foodies
                 </a>
-            </h1>
-            <!-- if logo is image enable this   
-            <a class="navbar-brand" href="#index.html">
-                <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-            </a> -->
+            </h1> --}}
+               
+            <a class="navbar-brand" href="{{ url('/') }}">
+                <img src="{{ asset('assets/images/logo.png') }}" alt="Caña Blanca" title="Caña Blanca" style="height:55px;" />
+            </a>
             <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
                 data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -20,21 +20,21 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mx-lg-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ url('/') }}">Bienvenida <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">About Us</a>
+                        <a class="nav-link" href="javascript:void(0);">Conócenos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">Menu</a>
+                        <a class="nav-link" href="javascript:void(0);">Nuestro Licor</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">Contact Us</a>
+                        <a class="nav-link" href="javascript:void(0);">Contáctanos</a>
                     </li>
                 </ul>
             </div>
             <!-- search button -->
-            <div class="search-right">
+            {{-- <div class="search-right">
                 <a href="#search" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>
                 <!-- search popup -->
                 <div id="search" class="pop-overlay">
@@ -52,7 +52,7 @@
                     <a class="close" href="#close">×</a>
                 </div>
                 <!-- //search popup -->
-            </div>
+            </div> --}}
             <!-- //search button -->
             <!-- toggle switch for light and dark theme -->
             <div class="cont-ser-position">
@@ -72,4 +72,3 @@
         </nav>
     </div>
 </header>
-<!--//header-->
