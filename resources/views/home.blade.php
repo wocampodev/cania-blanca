@@ -1,6 +1,8 @@
 @extends('layout')
 
 @section('content')
+
+    @include('sections.about')
     
     @include('sections.team')
         

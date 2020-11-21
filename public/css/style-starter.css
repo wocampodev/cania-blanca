@@ -14021,10 +14021,13 @@ a.text-dark:focus {
 
 :root {
   --theme-color: #e40000;
-  --primary-color: #f9bd29;
+  /* --primary-color: #f9bd29; */
+  --primary-color: #02407a;
   --primary-light: #fcf1e7;
-  --primary-dark: #ffc945;
-  --secondary-color: #0abf53;
+  /* --primary-dark: #ffc945; */
+  --primary-dark: #013565;
+  /* --secondary-color: #0abf53; */
+  --secondary-color: #0467c2;
   --font-color: #6b6768;
   --bg-color: #fff;
   --heading-color: #060606;
@@ -14043,9 +14046,12 @@ a.text-dark:focus {
 
 [data-theme="dark"] {
   --theme-color: #e40000;
-  --primary-color: #f9bd29;
-  --primary-light: #ffc945;
-  --secondary-color: #0abf53;
+  /* --primary-color: #f9bd29; */
+  --primary-color: #02407a;
+  /* --primary-light: #ffc945; */
+  --primary-light: #0467c2;
+  /* --secondary-color: #0abf53; */
+  --secondary-color: #0467c2;
   --primary-dark: #00070c;
   --font-color: #b7b7b7;
   --bg-color: #131617;
