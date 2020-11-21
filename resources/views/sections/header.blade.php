@@ -8,7 +8,7 @@
             </h1> --}}
                
             <a class="navbar-brand" href="{{ url('/') }}">
-                <img src="{{ asset('assets/images/logo.png') }}" alt="Caña Blanca" title="Caña Blanca" style="height:55px;" />
+                <img src="{{ asset('assets/images/logo_test.png') }}" alt="Caña Blanca" title="Caña Blanca" style="height:55px;" />
             </a>
             <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
                 data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"

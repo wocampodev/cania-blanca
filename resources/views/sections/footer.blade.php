@@ -4,7 +4,7 @@
             <div class="row footer-p">
                 <div class="col-lg-4 pr-lg-5">
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Caña Blanca" title="Caña Blanca" style="height:55px;" />
+                        <img src="{{ asset('assets/images/logo_test.png') }}" alt="Caña Blanca" title="Caña Blanca" style="height:55px;" />
                     </a>
                     <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur maxime, pariatur explicabo saepe sapiente. </p>
                 </div>
