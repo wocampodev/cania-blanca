@@ -4,18 +4,22 @@
 
     @include('sections.history')
     
-    @include('sections.about')
+    {{-- @include('sections.about') --}}
     
-    @include('sections.culture')
-    
-    @include('sections.team')
-        
     @include('sections.video')
 
-    @include('sections.blog')
+    @include('sections.products')
+    
+    @include('sections.culture')
 
-    @include('sections.call')
+    @include('sections.clients')
+    
+    {{-- @include('sections.team') --}}
 
-    @include('sections.promo')
+    {{-- @include('sections.blog') --}}
+
+    {{-- @include('sections.call') --}}
+
+    {{-- @include('sections.promo') --}}
 
 @endsection

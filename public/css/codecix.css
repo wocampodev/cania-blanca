@@ -39,9 +39,8 @@ html, body, html::after, html::before, body::after, body::before {
 }
 
 .section {
-    padding: 70px 0;
+    padding: 20px 0;
     position: relative;
-    /* background: #FFFFFF; */
 }
 
 .section .row+.category {
@@ -153,10 +152,6 @@ html, body, html::after, html::before, body::after, body::before {
     font-weight: 700;
 }
 
-/* .culture-block.website p {
-    opacity: .9;
-} */
-
 .culture-mockup {
     margin: auto;
     margin-top: 30px;
@@ -200,3 +195,9 @@ html, body, html::after, html::before, body::after, body::before {
     background-size: cover;
     height: 100%;
 }
+
+/* 
+    ================================
+            SECCIÓN CLIENTES
+    ================================
+*/
