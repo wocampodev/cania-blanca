@@ -2,6 +2,8 @@
 
 @section('content')
 
+    @include('sections.history')
+    
     @include('sections.about')
     
     @include('sections.team')
