@@ -7,8 +7,8 @@
     {{-- <link href="//fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> --}}
     <title>@yield('title', 'Development')</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ asset('css/style-starter.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/codecix.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/style-starter.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/codecix.css') }}">
     @yield('styles')
 </head>
 <body>
@@ -91,7 +91,7 @@
     <!-- //theme switch js (light and dark)-->
 
     <!-- magnific popup -->
-    <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery.magnific-popup.min.js') }}"></script>
     <script>
         $(document).ready(function () {
             $('.popup-with-zoom-anim').magnificPopup({
@@ -169,7 +169,7 @@
     <!-- //disable body scroll which navbar is in active -->
 
     <!--bootstrap-->
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
     <!-- //bootstrap-->
     <!-- //Js scripts -->
     @yield('scripts')
