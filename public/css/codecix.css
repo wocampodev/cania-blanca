@@ -544,3 +544,15 @@ label {
 .video-section {
     background-color: var(--grey);
 }
+
+.back-moche {
+    background-image: url('/assets/images/moche.svg'); 
+    background-repeat: no-repeat; 
+    background-position: bottom right;
+}
+
+@media (max-width: 767.98px) {
+    .back-moche {
+        background-image: none; 
+    } 
+}
