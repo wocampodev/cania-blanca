@@ -1,4 +1,4 @@
-<header id="site-header" class="fixed-top">
+<header id="site-header" class="fixed-top" style="z-index: 1;">
     <div class="container">
         <nav class="navbar navbar-expand-lg stroke px-0">
             <a class="navbar-brand" href="{{ url('/') }}">
