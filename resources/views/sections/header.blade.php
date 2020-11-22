@@ -22,32 +22,10 @@
                         <a class="nav-link" href="javascript:void(0);">Nuestro Licor</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">Contáctanos</a>
+                        <a class="nav-link" href="#" data-target="#contact-modal" data-toggle="modal">Contáctanos</a>
                     </li>
                 </ul>
             </div>
-            <!-- search button -->
-            {{-- <div class="search-right">
-                <a href="#search" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>
-                <!-- search popup -->
-                <div id="search" class="pop-overlay">
-                    <div class="popup">
-                        <h4 class="search-pop-text-w3 text-white text-center mb-4">Search Here Your Favourite Food
-                        </h4>
-                        <form action="#search" method="GET" class="search-box">
-                            <div class="input-search"> <span class="fa fa-search mr-2"
-                                    aria-hidden="true"></span><input type="search" placeholder="Enter Keyword"
-                                    name="search" required="required" autofocus="">
-                            </div>
-                            <button type="submit" class="btn button-style">Search</button>
-                        </form>
-                    </div>
-                    <a class="close" href="#close">×</a>
-                </div>
-                <!-- //search popup -->
-            </div> --}}
-            <!-- //search button -->
-            <!-- toggle switch for light and dark theme -->
             <div class="cont-ser-position">
                 <nav class="navigation">
                     <div class="theme-switch-wrapper">
@@ -61,7 +39,6 @@
                     </div>
                 </nav>
             </div>
-            <!-- //toggle switch for light and dark theme -->
         </nav>
     </div>
 </header>

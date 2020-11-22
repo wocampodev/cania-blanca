@@ -22,6 +22,8 @@
     @include('sections.footer')
 
     @include('sections.button')
+
+    @include('sections.contact-modal')
     
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
