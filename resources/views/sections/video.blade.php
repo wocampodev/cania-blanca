@@ -23,7 +23,7 @@
                         </a>
                         <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
                         <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-                            <iframe src="#" frameborder="0"
+                            <iframe src="{{ asset('assets/video/test.mp4') }}" frameborder="0"
                                 allow="autoplay; fullscreen" allowfullscreen></iframe>
                         </div>
                     </div>
