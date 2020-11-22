@@ -16,4 +16,6 @@
 
     @include('sections.promo')
 
+    @include('sections.brand')
+
 @endsection

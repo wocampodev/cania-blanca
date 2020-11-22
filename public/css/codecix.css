@@ -1,5 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('{{ asset("assets/fonts/LydiaCondensed-Bold.ttf") }}');
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+@keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+
 
 html, body, html::after, html::before, body::after, body::before {
     font-family: 'Oswald', sans-serif !important;
+}
+
+:root{
+    --grey:#F2f2f2;
+
+}
+
+.section-title{
+    font-family: 'Oswald', sans-serif !important;
+    
+    padding-bottom: 40px;
+
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+/*MARCA */
+.marca-descripcion{
+background-color: var(--grey);
+padding:90px 40px;
+z-index: 1;
+}
+
+.marca-imagen{
+    background: url(../assets/images/agricultor-marca.jpg) repeat var(--grey) left center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.marca-descripcion span{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.boton-enlace{
+    padding-top: 30px;
+    color: rgb(191,142,75);
+    border-color: #F2D16D;
+    border-width: 3px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 0.25em;
+    display: block;
+    border-width: 2px !important;
+}
+.hangover-bottle {
+    z-index: 2;
+    position: absolute;
+    top: 77px;
+    right: -58px;
+}
+
+.circulo-mochica{
+   
+        z-index: 0;
+        position: absolute;
+        top: 18px;
+        left: -192px;
+        width: 350px;
+        -webkit-animation: rotation 2s infinite linear;
+        animation: rotation 42s infinite linear;
+
 }
