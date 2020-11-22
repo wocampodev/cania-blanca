@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Lydia Condensed';
+    src: url('LydiaCondensed-Bold.eot');
+    src: local('Lydia Condensed Bold'), local('LydiaCondensed-Bold'),
+        url('LydiaCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('LydiaCondensed-Bold.woff2') format('woff2'),
+        url('LydiaCondensed-Bold.woff') format('woff'),
+        url('LydiaCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lydia Condensed';
+    src: url('LydiaCondensed-BoldItalic.eot');
+    src: local('Lydia Condensed Bold Italic'), local('LydiaCondensed-BoldItalic'),
+        url('LydiaCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('LydiaCondensed-BoldItalic.woff2') format('woff2'),
+        url('LydiaCondensed-BoldItalic.woff') format('woff'),
+        url('LydiaCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
