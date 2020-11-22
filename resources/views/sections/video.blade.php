@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-lg-7 left-wthree-img text-righ mt-lg-0 mt-5">
                     <div class="position-relative">
-                        <img src="{{ asset('assets/images/video3.png') }}" alt="" class="img-fluid radius-image-full">
+                        <img src="{{ asset('assets/images/lineas.jpg') }}" alt="" class="img-fluid radius-image-full">
                         <a href="#small-dialog"
                             class="popup-with-zoom-anim play-view text-center position-absolute">
                             <span class="video-play-icon">
