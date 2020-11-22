@@ -250,6 +250,9 @@ z-index: 1;
 }
 
 @media screen and (max-width: 768px) {
+    .section-story-overview .image-container {
+        background-size: cover;
+    }
     .image-container.image-left {
         margin-bottom: 220px;
     }
@@ -546,7 +549,7 @@ label {
 }
 
 .back-moche {
-    background-image: url('/assets/images/moche.svg'); 
+    background-image: url('/assets/images/moche.png'); 
     background-repeat: no-repeat; 
     background-position: bottom right;
 }
