@@ -48,11 +48,11 @@
     <!-- //move top -->
 
     <!-- common jquery plugin -->
-    <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery-3.3.1.min.js') }}"></script>
     <!-- //common jquery plugin -->
 
     <!-- theme switch js (light and dark)-->
-    <script src="{{ asset('js/theme-change.js') }}"></script>
+    <script src="{{ secure_asset('js/theme-change.js') }}"></script>
     <script>
         function autoType(elementClass, typingSpeed) {
             var thhis = $(elementClass);

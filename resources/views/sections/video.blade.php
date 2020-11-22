@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-lg-7 left-wthree-img text-righ mt-lg-0 mt-5">
                     <div class="position-relative">
-                        <img src="{{ asset('assets/images/lineas.jpg') }}" alt="" class="img-fluid radius-image-full">
+                        <img src="{{ secure_asset('assets/images/lineas.jpg') }}" alt="" class="img-fluid radius-image-full">
                         <a href="#small-dialog"
                             class="popup-with-zoom-anim play-view text-center position-absolute">
                             <span class="video-play-icon">
@@ -23,7 +23,7 @@
                         </a>
                         <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
                         <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-                            <iframe src="{{ asset('assets/video/test.mp4') }}" frameborder="0"
+                            <iframe src="{{ secure_asset('assets/video/test.mp4') }}" frameborder="0"
                                 allow="autoplay; fullscreen" allowfullscreen></iframe>
                         </div>
                     </div>
