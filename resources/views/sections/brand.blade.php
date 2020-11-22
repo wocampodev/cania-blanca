@@ -1,5 +1,5 @@
 <section class="marca">
-    <div class="promo-block pt-md-0 pt-4">
+    <div class="promo-block pt-md-0">
         <div class="container-fluid">
             <div class="row">
                 <div class="marca-descripcion col-lg-7 mb-lg-0 mb-sm-2 mb-4">

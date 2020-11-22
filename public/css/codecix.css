@@ -43,6 +43,7 @@
     --btn-bg: #e2e8f0;
     --header-bg-color: rgb(243 243 243 / 14%);
     --header-border-color: rgb(255 255 255 / 39%);
+    --grey:#F2f2f2;
 }
 
 [data-theme="dark"] {
@@ -68,15 +69,11 @@
     --btn-bg: #2a2a2a;
     --header-bg-color: transparent;
     --header-border-color: transparent;
+    --grey: #131617;
 }
 
 html, body, html::after, html::before, body::after, body::before {
     font-family: 'Oswald', sans-serif !important;
-}
-
-:root{
-    --grey:#F2f2f2;
-
 }
 
 .section-title{
