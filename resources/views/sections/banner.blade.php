@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="col-md-6 mt-md-0 mt-4">
-                <img class="img-fluid" style="height: 500px;" src="{{ asset('assets/images/test.jpg') }}" alt=" ">
+                <img class="img-fluid" style="height: 500px;" src="{{ asset('assets/images/lineas2.jpg') }}" alt=" ">
             </div>
         </div>
     </div>

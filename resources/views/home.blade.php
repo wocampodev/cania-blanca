@@ -1,21 +1,42 @@
 @extends('layout')
 
+@section('styles')
+    
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+@endsection
+
 @section('content')
 
-    @include('sections.about')
+    @include('sections.history')
     
-    @include('sections.team')
-        
+    {{-- @include('sections.about') --}}
+    
     @include('sections.video')
 
-    @include('sections.blog')
+    @include('sections.products')
+    
+    @include('sections.culture')
 
-    @include('sections.call')
-
-    @include('sections.service')
-
-    @include('sections.promo')
-
+    @include('sections.clients')
     @include('sections.brand')
+    
+    {{-- @include('sections.team') --}}
+
+    {{-- @include('sections.blog') --}}
+
+    {{-- @include('sections.call') --}}
+
+    {{-- @include('sections.promo') --}}
+
+@endsection
+
+@section('scripts')
+    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="{{ asset('js/home.js') }}"></script>
+
+    
 
 @endsection

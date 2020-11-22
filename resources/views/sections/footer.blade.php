@@ -4,7 +4,7 @@
             <div class="row footer-p">
                 <div class="col-lg-4 pr-lg-5">
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('assets/images/logo_test.png') }}" alt="Caña Blanca" title="Caña Blanca" style="height:55px;" />
+                        <img src="{{ asset('assets/images/logo.png') }}" alt="Caña Blanca" title="Caña Blanca" style="height:55px;" />
                     </a>
                     <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur maxime, pariatur explicabo saepe sapiente. </p>
                 </div>
@@ -23,17 +23,6 @@
                                             aria-hidden="true"></i>Contáctanos</a></li>
                             </ul>
                         </div>
-                        {{-- <div class="col-6 column pl-0">
-                            <ul class="footer-gd-16">
-                                <li><a href="javascript:void(0);"><i class="fa fa-angle-right" aria-hidden="true"></i>Foodies
-                                        Menu</a></li>
-                                <li><a href="javascript:void(0);"><i class="fa fa-angle-right" aria-hidden="true"></i>Privacy
-                                        Policy</a></li>
-                                <li><a href="javascript:void(0);"><i class="fa fa-angle-right" aria-hidden="true"></i>Terms and
-                                        conditions</a></li>
-                                <li><a href="javascript:void(0);"><i class="fa fa-angle-right" aria-hidden="true"></i>FAQ</a></li>
-                            </ul>
-                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-7 column mt-lg-0 mt-4">
@@ -63,14 +52,6 @@
                             Codecix</a>
                     </p>
                 </div>
-                {{-- <div class="columns-2 mt-md-0 mt-3">
-                    <ul class="social">
-                        <li><a href="javascript:void(0);"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                        </li>
-                        <li><a href="javascript:void(0);"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
-                        </li>
-                    </ul>
-                </div> --}}
             </div>
         </div>
     </div>
