@@ -1,4 +1,4 @@
-<div class="section">
+<div class="section" style="background-image: url('assets/images/moche.svg'); background-repeat: no-repeat; background-position: bottom right;">
     <div class="container">
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto text-center">
