@@ -126,8 +126,8 @@ z-index: 1;
 .hangover-bottle {
     z-index: 2;
     position: absolute;
-    top: 150px;
-    right: 0;
+    top: 74px;
+    right: -86px;
 }
 
 .circulo-mochica{
@@ -140,6 +140,18 @@ z-index: 1;
         -webkit-animation: rotation 2s infinite linear;
         animation: rotation 42s infinite linear;
 }
+
+@media (max-width: 576px) {
+    .hangover-bottle {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hangover-bottle {
+        display: none;
+    }
+  }
 /* 
     ================================
             SECCIÓN HISTÓRICA

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto text-center">
-                <h2 class="title">What is Caña Blanca?</h2>
+                <h2 class="title">Caña Blanca es tradición</h2>
                 <p class=" pt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta voluptatibus, quas sit amet consequuntur, suscipit temporibus magnam, at illo explicabo cum quibusdam.</p>
             </div>
         </div>
