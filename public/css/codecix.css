@@ -540,3 +540,7 @@ label {
         margin-top: 150px; 
     } 
 }
+
+.video-section {
+    background-color: var(--grey);
+}
