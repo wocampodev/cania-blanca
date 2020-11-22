@@ -12,31 +12,29 @@
     
     {{-- @include('sections.about') --}}
     
-    @include('sections.video')
-
     @include('sections.products')
     
     @include('sections.culture')
-
-    @include('sections.clients')
+    
     @include('sections.brand')
     
+    @include('sections.clients')
+    
+    @include('sections.video')
+    
     {{-- @include('sections.team') --}}
-
+    
     {{-- @include('sections.blog') --}}
-
+    
     {{-- @include('sections.call') --}}
-
+    
     {{-- @include('sections.promo') --}}
-
+    
 @endsection
 
 @section('scripts')
-    
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="{{ asset('js/home.js') }}"></script>
-
-    
 
 @endsection
