@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto text-center">
-                <h2 class="title">Caña Blanca es tradición</h2>
+                <h2 class="title">CAÑABLANCA es tradición</h2>
                 <p class=" pt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta voluptatibus, quas sit amet consequuntur, suscipit temporibus magnam, at illo explicabo cum quibusdam.</p>
             </div>
         </div>
@@ -14,7 +14,7 @@
                         <p class="blockquote main-text-color">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tenetur animi explicabo vitae. Repudiandae officia aperiam, fugiat cum dolore omnis."
                             <br>
                             <br>
-                            <small>DUEÑO DE CAÑA BLANCA</small>
+                            <span>- Paul Alfonso Huanambal Mimbela</span>
                         </p>
                     </div>
                     <div class="image-container fix-image" style="background-image: url('assets/images/roja_ancha.jpg')"></div>
