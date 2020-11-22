@@ -14030,6 +14030,7 @@ a.text-dark:focus {
   --secondary-color: #0467c2;
   --font-color: #6b6768;
   --bg-color: #fff;
+  --bg-color-2: #0467c2;
   --heading-color: #060606;
   --footer-color: #161623;
   --border-radius: 30px;
@@ -14055,6 +14056,7 @@ a.text-dark:focus {
   --primary-dark: #00070c;
   --font-color: #b7b7b7;
   --bg-color: #131617;
+  --bg-color-2: #131617;
   --heading-color: #fdfffc;
   --footer-color: #161623;
   --border-color: rgba(255, 255, 255, 0.2);
