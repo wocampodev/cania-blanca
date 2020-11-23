@@ -1,6 +1,15 @@
 <div class="section back-moche">
     <div class="container">
         <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <div class="cania-img">
+                    <img src="{{ asset('assets/images/cania-azucar-icono.png') }}" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
             <div class="col-md-8 ml-auto mr-auto text-center">
                 <h2 class="title">CAÑABLANCA es tradición</h2>
                 <p class=" pt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta voluptatibus, quas sit amet consequuntur, suscipit temporibus magnam, at illo explicabo cum quibusdam.</p>
