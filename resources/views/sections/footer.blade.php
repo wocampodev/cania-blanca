@@ -4,7 +4,7 @@
             <div class="row footer-p">
                 <div class="col-lg-4 pr-lg-5">
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Caña Blanca" title="Caña Blanca" style="height:55px;" />
+                        <img src="{{ asset('assets/images/logo.png') }}" alt="CAÑABLANCA" title="Caña Blanca" style="height:55px;" />
                     </a>
                     <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur maxime, pariatur explicabo saepe sapiente. </p>
                 </div>
@@ -47,8 +47,8 @@
             </div>
             <div class="d-flex below-section justify-content-center align-items-center pt-4 mt-5">
                 <div class="columns text-lg-left">
-                    <p class="copy-text">@ 2020 Caña Blanca. Todos los derechos reservados. Desarrollado por <a
-                            href="javascript:void(0);" target="_blank">
+                    <p class="copy-text">@ 2020 CAÑABLANCA. Todos los derechos reservados. Desarrollado por <a
+                            href="http://www.codecix.com" target="_blank">
                             Codecix</a>
                     </p>
                 </div>

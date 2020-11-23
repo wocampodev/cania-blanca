@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {{-- <link href="//fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> --}}
-    <title>@yield('title', 'Caña Blanca | Fino Destilado')</title>
+    <title>@yield('title', 'CAÑABLANCA | Fino Destilado')</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ secure_asset('css/style-starter.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('css/codecix.css') }}">
