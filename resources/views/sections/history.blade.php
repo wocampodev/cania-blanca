@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12 d-flex justify-content-center">
                 <div class="cania-img">
-                    <img src="{{ asset('assets/images/cania-azucar-icono.png') }}" class="img-fluid" alt="">
+                    <img src="{{ secure_asset('assets/images/cania-azucar-icono.png') }}" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
