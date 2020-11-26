@@ -11,12 +11,12 @@
                     {{-- @foreach ($clients as $item)
                         <div><img src="assets/images/clients/{{ $item->image }}" alt=""></div>
                     @endforeach --}}
-                    <div><img src="{{ secure_asset('assets/images/logo.png') }}" alt=""></div>
-                    <div><img src="{{ secure_asset('assets/images/logo.png') }}" alt=""></div>
-                    <div><img src="{{ secure_asset('assets/images/logo.png') }}" alt=""></div>
-                    <div><img src="{{ secure_asset('assets/images/logo.png') }}" alt=""></div>
-                    <div><img src="{{ secure_asset('assets/images/logo.png') }}" alt=""></div>
-                    <div><img src="{{ secure_asset('assets/images/logo.png') }}" alt=""></div>
+                    <div><img src="{{ asset('assets/images/logo.png') }}" alt=""></div>
+                    <div><img src="{{ asset('assets/images/logo.png') }}" alt=""></div>
+                    <div><img src="{{ asset('assets/images/logo.png') }}" alt=""></div>
+                    <div><img src="{{ asset('assets/images/logo.png') }}" alt=""></div>
+                    <div><img src="{{ asset('assets/images/logo.png') }}" alt=""></div>
+                    <div><img src="{{ asset('assets/images/logo.png') }}" alt=""></div>
                 </div>
             </div>
         </div>
