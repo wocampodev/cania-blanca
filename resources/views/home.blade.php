@@ -8,9 +8,9 @@
 
 @section('content')
 
+    @include('sections.banner')
+
     @include('sections.history')
-    
-    {{-- @include('sections.about') --}}
     
     @include('sections.products')
     
@@ -21,14 +21,6 @@
     @include('sections.clients')
     
     @include('sections.video')
-    
-    {{-- @include('sections.team') --}}
-    
-    {{-- @include('sections.blog') --}}
-    
-    {{-- @include('sections.call') --}}
-    
-    {{-- @include('sections.promo') --}}
     
 @endsection
 

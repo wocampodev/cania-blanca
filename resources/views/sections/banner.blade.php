@@ -5,7 +5,7 @@
                 {{-- <h3 class="mb-sm-4 mb-3 title">Lorem. <br>Lorem, ipsum.</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum exercitationem rem nemo laborum veniam sequi.</p> --}}
                 <div class="mt-lg-5 mt-4 mb-lg-0 mb-4">
-                    <a class="btn button-style" href="javascript:void(0);">Lorem, ipsum.</a>
+                    <a class="btn button-style" href="{{ route('products.all') }}">Lorem, ipsum.</a>
                 </div>
             </div>
             {{-- <div class="col-md-6 mt-md-0 mt-4">

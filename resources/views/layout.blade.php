@@ -15,8 +15,6 @@
     
     @include('sections.header')
 
-    @include('sections.banner')
-
     @yield('content')
 
     @include('sections.footer')

@@ -12,3 +12,5 @@
 */
 
 Route::view('/', 'home');
+
+Route::view('/productos', 'products')->name('products.all');
