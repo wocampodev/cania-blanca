@@ -16339,13 +16339,15 @@ h3.title-big {
 /* about page */
 /*-- inner-banner --*/
 .inner-banner {
-  background: url(../assets/images/innerbanner.png) no-repeat center;
+  background: url(../assets/images/agricultor-marca.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
-  min-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  min-height: 448px;
 }
 
 .w3l-breadcrumb {
