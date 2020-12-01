@@ -12,8 +12,6 @@
 
     @include('sections.history')
     
-    @include('sections.products')
-    
     @include('sections.culture')
     
     @include('sections.brand')

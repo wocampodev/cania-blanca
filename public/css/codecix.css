@@ -700,3 +700,190 @@ label {
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+
+/* 
+    =====================================
+                DETALLE PRODUCTO
+    =====================================
+*/
+
+.col_half {
+    display: block;
+    position: relative;
+    margin-right: 4%;
+    margin-bottom: 50px;
+    float: left;
+    width: 48%;
+}
+
+@media (max-width: 767.98px) {
+    .col_half {
+        width: 100%;
+        margin-right: 0;
+        float: none;
+        margin-bottom: 50px !important;
+    }
+}
+
+.col_last {
+    margin-right: 0 !important;
+    float: right;
+    clear: right;
+}
+
+@media (max-width: 767.98px) {
+    .col_last {
+        float: none;
+    }
+}
+
+.heading-block {
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+.heading-block h2 {
+    font-size: 30px;
+}
+
+.heading-block h1, .heading-block h2, .heading-block h3, .heading-block h4 {
+    margin-bottom: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+@media (max-width: 767.98px) {
+    .heading-block h2 {
+        font-size: 26px;
+    }
+    .heading-block h2 + span {
+        font-size: 18px;
+    }
+    .heading-block ~ p:not(.lead) {
+        font-size: 15px;
+    }
+}
+
+.heading-block > span:not(.before-heading) {
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #777;
+}
+
+.heading-block h2 + span {
+    font-size: 22px;
+}
+
+.heading-block:after {
+    content: '';
+    display: block;
+    margin-top: 30px;
+    width: 40px;
+    border-top: 2px solid #444;
+}
+
+.heading-block ~ p:not(.lead) {
+    font-size: 15px;
+}
+
+.fix-bug::after {
+    content: '';
+    border-top: none;
+}
+
+/* 
+    =====================================
+                REVIEW PRODUCTO
+    =====================================
+*/
+
+.bottommargin {
+    margin-bottom: 50px !important;
+}
+
+.feature-box.fbox-right {
+    padding: 0 80px 0 0;
+    text-align: right;
+}
+
+.feature-box:first-child {
+    margin-top: 0;
+}
+
+.feature-box.fbox-right .fbox-icon {
+    left: auto;
+    right: 0;
+}
+
+.feature-box .fbox-icon {
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 0;
+    left: 0;
+}
+
+.feature-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #333;
+}
+
+#content p {
+    line-height: 1.8;
+}
+
+.feature-box p {
+    margin: 8px 0 0 0;
+    color: #999;
+}
+
+.feature-box .fbox-icon a, .feature-box .fbox-icon i, .feature-box .fbox-icon img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+}
+
+.feature-box .fbox-icon i {
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+    line-height: 64px;
+}
+
+.feature-box .fbox-icon i, .feature-box .fbox-icon img {
+    border-radius: 50%;
+    background-color: var(--bg-color-3);
+}
+
+.icon-line-heart:before {
+    content: "\e024";
+}
+
+.center {
+    text-align: center;
+}
+
+.feature-box .fbox-icon {
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 0;
+    left: 0;
+}
+
+.feature-box {
+    position: relative;
+    margin-top: 20px;
+    padding: 0 0 0 80px;
+}
