@@ -16417,7 +16417,7 @@ h3.title-big {
     -ms-background-size: cover;
     object-fit: cover;
     object-position: center;
-    min-height: 448px;
+    min-height: 66vh;
 }
 
 .w3l-breadcrumb {
@@ -16455,7 +16455,7 @@ h3.title-big {
 
 @media (max-width: 568px) {
     .inner-banner {
-        min-height: 150px;
+        min-height: 66vh;
     }
 
     .breadcrumbs-custom-path li {
