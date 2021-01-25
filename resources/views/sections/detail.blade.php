@@ -69,7 +69,7 @@
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, repudiandae, maxime, earum, sapiente assumenda non odit laborum qui vero vel quos sint excepturi in laudantium.</p>
             <div class="mt-5 pt-3">
-                <a href="javascript:void(0);" class="btn btn-sm button-style mb-3">Lorem, ipsum.<i class="fa fa-arrow-right ml-2"></i></a>
+                <a href="{{ route('contact') }}" class="btn btn-sm button-style mb-3">Contáctanos<i class="fa fa-arrow-right ml-2"></i></a>
             </div>
         </div>
     </div>

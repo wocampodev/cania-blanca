@@ -12,7 +12,7 @@
                             <a class="call-style-w3" href="tel:+1(23) 456 789 0000">+51 928564123</a>
                         </li>
                         <li class="green">Or</li>
-                        <li><a href="javascript:void(0);" class="btn button-style">Lorem.</a></li>
+                        <li><a href="{{ route('contact') }}" class="btn button-style">Contáctanos</a></li>
                     </ul>
                 </div>
             </div>
