@@ -17,7 +17,6 @@
     @include('sections.clients')
 
     @include('sections.culture')
-
     
 @endsection
 
