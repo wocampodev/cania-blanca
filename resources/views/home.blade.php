@@ -12,13 +12,12 @@
 
     @include('sections.history')
     
-    @include('sections.culture')
-    
     @include('sections.brand')
-    
+
     @include('sections.clients')
-    
-    @include('sections.video')
+
+    @include('sections.culture')
+
     
 @endsection
 

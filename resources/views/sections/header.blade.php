@@ -19,10 +19,10 @@
                         <a class="nav-link" href="javascript:void(0);">Conócenos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">Nuestro Licor</a>
+                        <a class="nav-link" href="{{ route('products.all') }}">Nuestro Licor</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-target="#contact-modal" data-toggle="modal">Contáctanos</a>
+                        <a class="nav-link" href="{{ route('contact') }}">Contáctanos</a>
                     </li>
                 </ul>
             </div>
