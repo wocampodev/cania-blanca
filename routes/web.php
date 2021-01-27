@@ -11,6 +11,10 @@
 |
 */
 
-Route::view('/', 'home');
+Route::view('/', 'home')->name('home');
 
 Route::view('/productos', 'products')->name('products.all');
+
+Route::view('/productos/{slug}', 'product-detail')->name('product.detail');
+
+Route::view('/contacto', 'contact')->name('contact');

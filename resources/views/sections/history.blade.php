@@ -12,28 +12,28 @@
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto text-center">
                 <h2 class="title">CAÑABLANCA es tradición</h2>
-                <p class=" pt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta voluptatibus, quas sit amet consequuntur, suscipit temporibus magnam, at illo explicabo cum quibusdam.</p>
+                <p class=" pt-3">Al igual que el pisco en el sur, el aguardiente o destilado de caña, toma identidad regional y se apodera de los gustos de los lugareños.</p>
             </div>
         </div>
         <div class="separator separator-primary"></div>
         <div class="section-story-overview">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="image-container image-left" style="background-image: url('assets/images/azul_ancha.jpg')">
-                        <p class="blockquote main-text-color">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tenetur animi explicabo vitae. Repudiandae officia aperiam, fugiat cum dolore omnis."
+                    <div class="image-container image-left" style="background-image: url('assets/images/products/azul_ancha.jpg')">
+                        <p class="blockquote main-text-color">"CAÑABLANCA pone en las manos de nuestros paisanos del norte del Perú un destilado de caña de azúcar que nace de nuestros propios cultivos de caña, las cuales son procesadas in situ, manteniendo la frescura de las mismas y obteniendo un mosto o guarapo delicioso y agradable."
                             <br>
                             <br>
                             <span>- Paul Alfonso Huanambal Mimbela</span>
                         </p>
                     </div>
-                    <div class="image-container fix-image" style="background-image: url('assets/images/roja_ancha.jpg')"></div>
+                    <div class="image-container fix-image" style="background-image: url('assets/images/products/roja_ancha.jpg')"></div>
                 </div>
                 <div class="col-md-5 pt-3">
-                    <div class="image-container image-right fix-image" style="background-image: url('assets/images/verde_ancha.jpg')"></div>
-                    <h3 class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, iure.</h3>
-                    <p class="pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et dolore tempora eius, earum magnam excepturi consectetur dolorem rem ipsam corrupti veniam repellendus incidunt itaque adipisci repellat nobis ratione. Voluptatum beatae sapiente quas!</p>
-                    <p class="pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis sunt tempora ducimus. Perspiciatis iusto rerum repudiandae labore accusamus voluptate, quod possimus laborum eos doloremque, saepe ratione. Enim reprehenderit perspiciatis natus officiis magnam corporis.</p>
-                    <p class="pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis sunt tempora ducimus. Perspiciatis iusto rerum repudiandae labore accusamus voluptate, quod possimus laborum eos doloremque, saepe ratione. Enim reprehenderit perspiciatis natus officiis magnam corporis.</p>
+                    <div class="image-container image-right fix-image" style="background-image: url('assets/images/products/verde_ancha.jpg')"></div>
+                    <h3 class="pt-3 text-center">¿Por qué elegir a CAÑABLANCA?</h3>
+                    <p class="pt-3">CAÑABLANCA es un fino destilado de alta gama, que ofrece sabores y aromas agradables y propios de aquellos destilados de antaño que lo hicieron preferente entre la población por su cuerpo seco y ligero.</p>
+                    <p class="pt-3">Usamos la variedad Chicama 32 que es una caña blanca propia de la región y muy usada desde antaño, suave y de gran sabor y dulzor; muy jugosa y apetecible.</p>
+                    <p class="pt-3">Nuestro producto es el único procesado con tecnología que hacen los piscos peruanos, es por ello su gran pureza y sabor; tanto las cabezas como las colas son separadas debidamente, quedando así un destilado de alta calidad con parámetros permisibles mundialmente para el consumo humano.</p>
                 </div>
             </div>
         </div>

@@ -4,8 +4,6 @@
 
     @include('sections.banner-inner')
 
-    @include('sections.gallery')
-
-    @include('sections.call')
+    @include('sections.detail')
 
 @endsection
