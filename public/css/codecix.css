@@ -906,6 +906,33 @@ label {
 
 /* 
     =====================================
+                STORY-PRODUCTS
+    =====================================
+*/
+
+.story-group {
+    background-color: var(--grey);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.story-row {
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    display: flex;
+}
+
+.story-img {
+    scroll-snap-align: center;
+    border-radius: 50%;
+    height: 224px;
+    width: 224px;
+    margin: 24px;
+}
+
+/* 
+    =====================================
                 CONTACTO
     =====================================
 */
