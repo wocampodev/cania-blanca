@@ -203,8 +203,8 @@ body::before {
     height: 335px;
     position: relative;
     background-position: center center;
-    background-size: contain;
-    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-repeat: no-repeat;
     object-fit: cover;
     object-position: center center;
     box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
@@ -229,7 +229,6 @@ body::before {
 
 .section-story-overview .image-container:nth-child(2) {
     margin-top: 420px;
-    margin-left: -105px;
 }
 
 .section-story-overview p.blockquote {
@@ -250,7 +249,7 @@ body::before {
     }
 
     .image-container.image-left {
-        margin-right: -100px;
+        margin-right: -25px;
     }
 }
 
@@ -557,10 +556,12 @@ label {
     background-color: var(--grey);
 }
 
-.back-moche {
-    background-image: url("/assets/images/moche.png");
-    background-repeat: no-repeat;
-    background-position: bottom right;
+@media (min-width: 900px) {
+    .back-moche {
+        background-image: url("/assets/images/moche.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
 }
 
 @media (max-width: 767.98px) {
