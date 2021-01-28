@@ -55,16 +55,10 @@
               <hr>
               <ul class="social-media-list">
                 <li><a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-github" aria-hidden="true"></i></a>
-                </li>
-                <li><a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <i class="fa fa-facebook" aria-hidden="true"></i></a>
                 </li>
                 <li><a href="#" target="_blank" class="contact-icon">
                   <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </li>
-                <li><a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-codepen" aria-hidden="true"></i></a>
                 </li>
               </ul>
               <hr>
