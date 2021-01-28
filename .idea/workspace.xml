@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7e1b66-7712-4b39-9919-714ab81a5887" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/cania_blanca.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cania_blanca.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product/components/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product/components/gallery.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -150,6 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610913501835</updated>
       <workItem from="1610913506029" duration="1173000" />
+      <workItem from="1611856853769" duration="153000" />
     </task>
     <servers />
   </component>
@@ -166,5 +167,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
