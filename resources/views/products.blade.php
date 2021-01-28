@@ -2,10 +2,10 @@
 
 @section('content')
 
-    @include('sections.banner-inner')
+    @include('product.components.banner-inner')
 
-    @include('sections.gallery')
+    @include('product.components.gallery')
 
-    @include('sections.call')
+    @include('product.components.call')
 
 @endsection
