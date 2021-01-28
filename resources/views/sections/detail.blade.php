@@ -82,7 +82,7 @@
 
     <div class="container clearfix">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 text-center">
                 <figure>
                     <img class="img-fluid" src="{{ asset('assets/images/slider/mosto_verde.jpeg') }}" alt="Imagen Mosto Verde">
                 </figure>
