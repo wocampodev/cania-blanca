@@ -69,14 +69,24 @@
             </div>
             <p>
                 <span class="text-primary">Ideal para un {{ $product['suggest'] }}</span> <br>
-                @foreach($product['preparation'] as $preparation )
-                   <ul>
-                       <li> {{$preparation}}<br></li>
-                   </ul>
+            @foreach($product['preparation'] as $preparation )
+                <ul>
+                    <li> {{$preparation}}<br></li>
+                </ul>
                 @endforeach
-            </p>
-            <div class="mt-3 text-center">
-                <a href="{{ route('contact') }}" class="btn btn-sm button-style">Contáctanos<i class="fa fa-arrow-right ml-2"></i></a>
+                </p>
+                <div class="mt-3 text-center">
+                    <a href="{{ route('contact') }}" class="btn btn-sm button-style">Contáctanos<i class="fa fa-arrow-right ml-2"></i></a>
+                </div>
+        </div>
+    </div>
+
+    <div class="container clearfix">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <figure>
+                    <img class="img-fluid" src="{{ asset('assets/images/slider/mosto_verde.jpeg') }}" alt="Imagen Mosto Verde">
+                </figure>
             </div>
         </div>
     </div>
