@@ -8,15 +8,15 @@
 
 @section('content')
 
-    @include('sections.banner')
+    @include('home.components.banner')
 
-    @include('sections.history')
+    @include('home.components.history')
     
-    @include('sections.brand')
+    @include('home.components.brand')
 
-    @include('sections.clients')
+    @include('home.components.client')
 
-    @include('sections.culture')
+    @include('home.components.culture')
     
 @endsection
 
