@@ -15,7 +15,7 @@
                         </div>
                         <h5 class="px-3 text-center">Mosto Verde</h5>
                         <div class="d-flex justify-content-center">
-                            <a href="{{ route('product.detail_mosto_verde') }}" class="btn btn-sm button-style mb-3">Saber más<i class="fa fa-arrow-right ml-2"></i></a>
+                            <a href="{{ route('product.detail','mosto-verde') }}" class="btn btn-sm button-style mb-3">Saber más<i class="fa fa-arrow-right ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                         </div>
                         <h5 class="px-3 text-center">Uva Italia</h5>
                         <div class="d-flex justify-content-center">
-                            <a href="{{ route('product.detail_uva_italia') }}" class="btn btn-sm button-style mb-3">Saber más<i class="fa fa-arrow-right ml-2"></i></a>
+                            <a href="{{ route('product.detail','uva-italia') }}" class="btn btn-sm button-style mb-3">Saber más<i class="fa fa-arrow-right ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                         </div>
                         <h5 class="px-3 text-center">Macerado en Damascos</h5>
                         <div class="d-flex justify-content-center">
-                            <a href="{{ route('product.detail_macerado_damasco') }}" class="btn btn-sm button-style mb-3">Saber más<i class="fa fa-arrow-right ml-2"></i></a>
+                            <a href="{{ route('product.detail','macerado-damascos') }}" class="btn btn-sm button-style mb-3">Saber más<i class="fa fa-arrow-right ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                         </div>
                         <h5 class="px-3 text-center">Manzanilla</h5>
                         <div class="d-flex justify-content-center">
-                            <a href="{{ route('product.detail_manzanilla') }}" class="btn btn-sm button-style mb-3">Saber más<i class="fa fa-arrow-right ml-2"></i></a>
+                            <a href="{{ route('product.detail','manzanilla') }}" class="btn btn-sm button-style mb-3">Saber más<i class="fa fa-arrow-right ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                         </div>
                         <h5 class="px-3 text-center">Hierba Luisa</h5>
                         <div class="d-flex justify-content-center">
-                            <a href="{{ route('product.detail_hierba_luisa') }}" class="btn btn-sm button-style mb-3">Saber más<i class="fa fa-arrow-right ml-2"></i></a>
+                            <a href="{{ route('product.detail','hierba-luisa') }}" class="btn btn-sm button-style mb-3">Saber más<i class="fa fa-arrow-right ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                         </div>
                         <h5 class="px-3 text-center">Cogollito</h5>
                         <div class="d-flex justify-content-center">
-                            <a href="{{ route('product.detail_cogollito') }}" class="btn btn-sm button-style mb-3">Saber más<i class="fa fa-arrow-right ml-2"></i></a>
+                            <a href="{{ route('product.detail','cogollito') }}" class="btn btn-sm button-style mb-3">Saber más<i class="fa fa-arrow-right ml-2"></i></a>
                         </div>
                     </div>
                 </div>
