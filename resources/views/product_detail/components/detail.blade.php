@@ -65,12 +65,12 @@
                 <h2  style="color: #212F59;margin-bottom:5px;">{{ $product['name'] }}</h2>
                 <p>{{ $product['description-long'] }}</p>
             </div>
-            
+
         </div>
     </div>
 
 
-   
+
     <div class="container mt-5 clearfix">
         <div class="col_half nobottommargin center">
             <img src="{{ asset($product['main_img']) }}" alt="Image" class="img-fluid rounded">
@@ -80,17 +80,17 @@
                 <h4 class="text" style="color: #1C3E8D">Ideal para un {{ $product['suggest'] }}</h4>
                 <p>{{ $product['description-short'] }}</p>
             </div>
-            
+
                 <h5 class="text" style="color: #1C3E8D">El mejor cóctel</h5> <br>
                 <?php $count = 1; ?>
             @foreach($product['preparation'] as $preparation )
                 <ul>
-                    <li>{{ $count++ }}. {{$preparation}}</li><br>
+                    <li class="pb-2">{{ $count++ }}. {{$preparation}}</li>
                 </ul>
                 @endforeach
                 </p>
                 <div class="mt-3 text-center">
-                    <a href="{{ route('contact') }}" class="btn btn-sm button-style">Contáctanos<i class="fa fa-arrow-right ml-2"></i></a>
+                    <a href="{{ route('contact') }}" class="btn btn-sm button-style">Contáctanos</a>
                 </div>
         </div>
     </div>

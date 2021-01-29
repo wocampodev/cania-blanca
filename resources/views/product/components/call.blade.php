@@ -8,10 +8,7 @@
                 </div>
                 <div class="float-rt text-right">
                     <ul class="buttons">
-                        <li class="phone"><span class="fa fa-volume-control-phone mr-1" aria-hidden="true"></span>
-                            <a class="call-style-w3" href="tel:+1(23) 456 789 0000">+51 939204100</a>
-                        </li>
-                        <li class="green">ó</li>
+                        <li class="green"></li>
                         <li><a href="{{ route('contact') }}" class="btn button-style">Contáctanos</a></li>
                     </ul>
                 </div>
