@@ -1,4 +1,4 @@
-<header id="site-header" class="fixed-top" style="z-index: 1;">
+<header id="site-header" class="fixed-top" style="z-index: 1;border-style: hidden;">
     <div class="container">
         <nav class="navbar navbar-expand-lg stroke px-0">
             <a class="navbar-brand" href="{{ url('/') }}">
@@ -12,8 +12,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mx-lg-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="{{ url('/') }}">Bienvenida <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('/') }}">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('about') }}">Conócenos</a>
