@@ -69,6 +69,7 @@ main,
 nav,
 section {
     display: block;
+
 }
 
 body {
@@ -3738,6 +3739,7 @@ input[type="button"].btn-block {
     font-size: 0.875rem;
     color: #6c757d;
     white-space: nowrap;
+    
 }
 
 .dropdown-item-text {
@@ -15090,6 +15092,7 @@ header {
     height: 90px;
     display: grid;
     align-items: center;
+    
     /* box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05); */
 }
 
@@ -15100,6 +15103,7 @@ header.nav-fixed {
     border-bottom: none;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
     z-index: 10 !important;
+    
     /* for z-index:10 to display gallery popup */
 }
 
@@ -15413,6 +15417,8 @@ nav ul li a:hover {
     header {
         height: auto;
         padding: 17px 0;
+        
+        
     }
 
     .navbar {
@@ -16418,6 +16424,7 @@ h3.title-big {
     object-fit: cover;
     object-position: center;
     min-height: 66vh;
+    
 }
 
 .w3l-breadcrumb {

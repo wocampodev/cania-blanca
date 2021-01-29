@@ -10,11 +10,11 @@
                 </div>
                 <div class="col-lg-4 mt-lg-0 mt-4">
                     <h3 class="text-center">Navegación</h3>
-                    <div class="row">
-                        <div class="col-12 column">
+                    <div class="row text-left">
+                        <div class="col-12 column ">
                             <ul class="footer-gd-16">
                                 <li class="d-flex justify-content-center"><a href="{{ route('home') }}"><i class="fa fa-angle-right"
-                                            aria-hidden="true"></i>Bienvenida</a></li>
+                                            aria-hidden="true"></i>Inicio</a></li>
                                 <li class="d-flex justify-content-center"><a href="{{ route('about') }}"><i class="fa fa-angle-right" 
                                             aria-hidden="true"></i>Conócenos </a></li>
                                 <li class="d-flex justify-content-center"><a href="{{ route('products.all') }}"><i class="fa fa-angle-right"

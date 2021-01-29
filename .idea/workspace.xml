@@ -24,15 +24,6 @@
 =======
     <list default="true" id="ab7e1b66-7712-4b39-9919-714ab81a5887" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product/components/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product/components/gallery.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product_detail/components/detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail_cogollito.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail_hierba_luisa.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail_macerado_damasco.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail_manzanilla.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail_mosto_verde.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail_uva_italia.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
 >>>>>>> d2291db54490052b8dd4e3fcc787591b8d91415a
     <option name="SHOW_DIALOG" value="false" />
@@ -184,8 +175,12 @@
 =======
       <updated>1610913501835</updated>
       <workItem from="1610913506029" duration="1173000" />
+<<<<<<< HEAD
       <workItem from="1611856853769" duration="3714000" />
 >>>>>>> d2291db54490052b8dd4e3fcc787591b8d91415a
+=======
+      <workItem from="1611856853769" duration="6808000" />
+>>>>>>> 5751ed9e61a258641b01b5ff97e29badaefc1522
     </task>
     <servers />
   </component>
@@ -204,10 +199,23 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="WindowStateProjectService">
     <state x="463" y="159" key="FileChooserDialogImpl" timestamp="1611769879827">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="463" y="159" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1611769879827" />
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/product_detail/components/detail.blade.php</url>
+          <line>60</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+>>>>>>> 5751ed9e61a258641b01b5ff97e29badaefc1522
   </component>
 </project>
