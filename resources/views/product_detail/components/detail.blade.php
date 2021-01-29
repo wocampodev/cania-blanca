@@ -64,7 +64,7 @@
         </div>
         <div class="col_half nobottommargin col_last">
             <div class="heading-block">
-                <h2>{{ $product['name'] }}</h2>
+                <h2 class="title-color">{{ $product['name'] }}</h2>
                 <span>{{ $product['description'] }}</span>
             </div>
             <p>

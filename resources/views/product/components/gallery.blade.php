@@ -5,7 +5,7 @@
                 <h2 class="title">Nuestro Licor</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-center">
             <div class="col-lg-3">
                 <div class="product-item shadow rounded">
                     <img class="img-fluid product-img-content" src="{{ asset('assets/images/products/azul.jpg') }}" alt="Licor Cañablanca">
@@ -48,7 +48,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-3">
                 <div class="product-item shadow rounded">
                     <img class="img-fluid product-img-content" src="{{ asset('assets/images/products/roja.jpg') }}" alt="Licor Cañablanca">
@@ -63,8 +62,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row" style="text-align: center;" >
             <div class="col-lg-3">
                 <div class="product-item shadow rounded" >
                     <img class="img-fluid product-img-content" src="{{ asset('assets/images/products/azul.jpg') }}" alt="Licor Cañablanca">

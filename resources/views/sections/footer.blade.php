@@ -15,7 +15,7 @@
                             <ul class="footer-gd-16">
                                 <li class="d-flex justify-content-center"><a href="{{ route('home') }}"><i class="fa fa-angle-right"
                                             aria-hidden="true"></i>Bienvenida</a></li>
-                                <li class="d-flex justify-content-center"><a href="javascript:void(0);"><i class="fa fa-angle-right" 
+                                <li class="d-flex justify-content-center"><a href="{{ route('about') }}"><i class="fa fa-angle-right" 
                                             aria-hidden="true"></i>Conócenos </a></li>
                                 <li class="d-flex justify-content-center"><a href="{{ route('products.all') }}"><i class="fa fa-angle-right"
                                             aria-hidden="true"></i>Nuestro Licor</a></li>

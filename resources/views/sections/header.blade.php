@@ -16,7 +16,7 @@
                         <a class="nav-link" href="{{ url('/') }}">Bienvenida <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">Conócenos</a>
+                        <a class="nav-link" href="{{ route('about') }}">Conócenos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('products.all') }}">Nuestro Licor</a>
