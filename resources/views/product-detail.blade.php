@@ -4,6 +4,8 @@
 
     @include('sections.banner-inner')
 
-    @include('sections.detail')
+    @include('product_detail.components.story')
+
+    @include('product_detail.components.detail')
 
 @endsection

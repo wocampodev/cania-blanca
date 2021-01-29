@@ -13,8 +13,11 @@
 
 Route::view('/', 'home')->name('home');
 
+Route::view('/nosotros', 'about')->name('about');
+
 Route::view('/productos', 'products')->name('products.all');
 
-Route::view('/productos/{slug}', 'product-detail')->name('product.detail');
+
+Route::get('/productos/{slug}', 'Product\ProductController@product_detail')->name('product.detail');
 
 Route::view('/contacto', 'contact')->name('contact');

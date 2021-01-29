@@ -203,8 +203,8 @@ body::before {
     height: 335px;
     position: relative;
     background-position: center center;
-    background-size: contain;
-    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-repeat: no-repeat;
     object-fit: cover;
     object-position: center center;
     box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
@@ -229,7 +229,6 @@ body::before {
 
 .section-story-overview .image-container:nth-child(2) {
     margin-top: 420px;
-    margin-left: -105px;
 }
 
 .section-story-overview p.blockquote {
@@ -250,7 +249,7 @@ body::before {
     }
 
     .image-container.image-left {
-        margin-right: -100px;
+        margin-right: -25px;
     }
 }
 
@@ -557,10 +556,12 @@ label {
     background-color: var(--grey);
 }
 
-.back-moche {
-    background-image: url("/assets/images/moche.png");
-    background-repeat: no-repeat;
-    background-position: bottom right;
+@media (min-width: 900px) {
+    .back-moche {
+        background-image: url("/assets/images/moche.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -905,6 +906,33 @@ label {
 
 /* 
     =====================================
+                STORY-PRODUCTS
+    =====================================
+*/
+
+.story-group {
+    background-color: var(--grey);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.story-row {
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    display: flex;
+}
+
+.story-img {
+    scroll-snap-align: center;
+    border-radius: 50%;
+    height: 224px;
+    width: 224px;
+    margin: 24px;
+}
+
+/* 
+    =====================================
                 CONTACTO
     =====================================
 */
@@ -1150,4 +1178,121 @@ hr {
 
 .btn-primary {
     background: var(--blue);
+}
+
+/* 
+    =====================================
+                NOSOTROS
+    =====================================
+*/
+
+.aboutus-section {
+    padding: 90px 0;
+}
+.aboutus-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: var(--heading-color);
+}
+.aboutus-title::after {
+    background: var(--secondary-color) none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+.aboutus-text {
+    color: var(--text-secondary);
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 35px;
+}
+
+a.aboutus-more:hover,
+a.aboutus-more:active {
+    text-decoration: none;
+    outline: 0;
+}
+.aboutus-more {
+    border: 1px solid var(--secondary-color);
+    border-radius: 25px;
+    color: var(--secondary-color);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+
+.aboutus-more:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-light);
+}
+
+.feature .feature-box .iconset {
+    background: transparent none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
+    fill: var(--secondary-color);
+}
+.feature .feature-box .iconset::after {
+    background: var(--secondary-color) none repeat scroll 0 0;
+    content: "";
+    height: 150%;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+    margin-top: -5px;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: var(--footer-color);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+.feature .feature-box .feature-content h4 {
+    color: var(--footer-color);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+}
+.icon {
+    padding: 0px;
+    font-size: 40px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 100px;
+    color: var(--secondary-color);
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+}
+
+.title-color {
+    color: var(--heading-color) !important;
 }

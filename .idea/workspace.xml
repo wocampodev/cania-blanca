@@ -19,13 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="77328291-e26d-4689-b956-2103ad7e48ef" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="ab7e1b66-7712-4b39-9919-714ab81a5887" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product/components/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product/components/gallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product_detail/components/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail_cogollito.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail_hierba_luisa.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail_macerado_damasco.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail_manzanilla.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail_mosto_verde.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail_uva_italia.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
+>>>>>>> d2291db54490052b8dd4e3fcc787591b8d91415a
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -163,8 +178,14 @@
       <created>1611763713503</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1611763713503</updated>
       <workItem from="1611763714699" duration="1372000" />
+=======
+      <updated>1610913501835</updated>
+      <workItem from="1610913506029" duration="1173000" />
+      <workItem from="1611856853769" duration="3714000" />
+>>>>>>> d2291db54490052b8dd4e3fcc787591b8d91415a
     </task>
     <servers />
   </component>
@@ -181,6 +202,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="159" key="FileChooserDialogImpl" timestamp="1611769879827">
