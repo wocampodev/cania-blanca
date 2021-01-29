@@ -4,8 +4,6 @@
 
     @include('sections.banner-inner')
 
-    @include('about.components.gallery')
-
-    @include('about.components.call')
+    @include('about.components.data')
 
 @endsection

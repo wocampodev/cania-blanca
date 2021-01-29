@@ -13,6 +13,8 @@
 
 Route::view('/', 'home')->name('home');
 
+Route::view('/nosotros', 'about')->name('about');
+
 Route::view('/productos', 'products')->name('products.all');
 
 
