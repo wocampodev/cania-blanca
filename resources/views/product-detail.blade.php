@@ -2,7 +2,7 @@
 
 @section('content')
 
-    @include('product_detail.components.banner-inner')
+    @include('sections.banner-inner')
 
     @include('product_detail.components.story')
 
