@@ -12,16 +12,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mx-lg-auto">
-                    <li class="nav-item">
+                    <li class="nav-item {{ active('/') }}">
                         <a class="nav-link" href="{{ url('/') }}">Inicio <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {{ active('nosotros') }}">
                         <a class="nav-link" href="{{ route('about') }}">Conócenos</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {{ active('productos') }}">
                         <a class="nav-link" href="{{ route('products.all') }}">Nuestro Licor</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {{ active('contacto') }}">
                         <a class="nav-link" href="{{ route('contact') }}">Contáctanos</a>
                     </li>
                 </ul>
