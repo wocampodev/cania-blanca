@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function product_detail($slug)
+    public function product_detail($slug = null)
     {
 
         $products = [
@@ -23,7 +23,6 @@ class ProductController extends Controller
                     'Unas gotas de limón.',
                 ],
                 'main_img' => './assets/images/products/mosto_verde.png',
-                'banner_img' => './assets/images/slider/mosto_verde.jpeg',
             ],
             'macerado-damascos' => [
                 'name' => 'MACERADO EN DAMASCOS',
@@ -37,7 +36,6 @@ class ProductController extends Controller
                     'Adicionar un fino chorro de granadina.',
                 ],
                 'main_img' => './assets/images/products/macerado_damascos.png',
-                'banner_img' => './assets/images/slider/mosto_verde.jpeg',
             ],
             'uva-italia' => [
                 'name' => 'UVA ITALIA',
@@ -50,8 +48,7 @@ class ProductController extends Controller
                     'Agitar y servir en vaso alto.',
                     'Se decora con una rodaja de piña.',
                 ],
-                'main_img' => './assets/images/products/azul_ancha.jpg',
-                'banner_img' => './assets/images/slider/mosto_verde.jpeg',
+                'main_img' => './assets/images/products/uva_italia.png',
             ],
             'macerado-arandanos' => [
                 'name' => 'MACERADO EN ARANDANOS',
@@ -65,7 +62,6 @@ class ProductController extends Controller
                     'Asegurar que se viertan los frutos secos de arándano en el vaso.',
                 ],
                 'main_img' => './assets/images/products/macerado_arandanos.png',
-                'banner_img' => './assets/images/slider/mosto_verde.jpeg',
             ],
             'hierba-luisa' => [
                 'name' => 'HIERBA LUISA',
@@ -79,7 +75,6 @@ class ProductController extends Controller
                     'Adicionar solo un poco de gaseosa de Jengibre o Evervess.',
                 ],
                 'main_img' => './assets/images/products/hierba_luisa.png',
-                'banner_img' => './assets/images/slider/mosto_verde.jpeg',
             ],
             'manzanilla' => [
                 'name' => 'MANZANILLA',
@@ -92,7 +87,6 @@ class ProductController extends Controller
                     'Completar a tres cuartos del vaso con gaseosa de jengibre o Evervess',
                 ],
                 'main_img' => './assets/images/products/manzanilla.png',
-                'banner_img' => './assets/images/slider/mosto_verde.jpeg',
             ],
             'cogollito' => [
                 'name' => 'COGOLLITO',
@@ -107,11 +101,17 @@ class ProductController extends Controller
                     'Unas gotas de limón',
                 ],
                 'main_img' => './assets/images/products/cogollito.png',
-                'banner_img' => './assets/images/slider/mosto_verde.jpeg',
             ],
         ];
 
-        $product = $products[$slug];
+
+        if(is_null($slug)){
+            $product = $products['mosto-verde'];
+        }else{
+            $product = $products[$slug];
+        }
+
+
 
 //        dd($product);
 

@@ -69,6 +69,21 @@
     --header-border-color: #131617;
     --grey: #131617;
 }
+[data-theme="dark"]  .story-img {
+    scroll-snap-align: center;
+    border-radius: 12px;
+    margin: 12px;
+    border: 1px solid #1C3E8D;
+    background: #1C3E8D;
+    color: white;
+
+}
+
+[data-theme="dark"]  .story-img:hover {
+    color: white;
+    background: none;
+    border: 1px solid white;
+}
 
 html,
 body,
@@ -948,6 +963,8 @@ label {
 .story-row::-webkit-scrollbar-thumb:active {
     background-color: #999999;
 }
+
+
 
 .story-img {
     scroll-snap-align: center;
