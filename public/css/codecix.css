@@ -138,6 +138,12 @@ body::before {
     animation: rotation 42s infinite linear;
 }
 
+.text-color{
+    color: #1C3E8D;
+}
+
+
+
 @media (max-width: 576px) {
     .hangover-bottle {
         display: none;
@@ -149,7 +155,7 @@ body::before {
         display: none;
     }
 }
-/* 
+/*
     ================================
             SECCIÓN HISTÓRICA
     ================================
@@ -229,7 +235,7 @@ body::before {
 }
 
 .section-story-overview .image-container:nth-child(2) {
-    margin-top: 420px;
+    margin-top: 450px;
 }
 
 .section-story-overview p.blockquote {
@@ -279,7 +285,7 @@ body::before {
     }
 }
 
-/* 
+/*
     ================================
             SECCIÓN CULTURA MOCHE
     ================================
@@ -351,7 +357,7 @@ body::before {
     height: 100%;
 }
 
-/* 
+/*
     ================================
             SECCIÓN CLIENTES
     ================================
@@ -453,7 +459,7 @@ h4 {
     padding: 3em 0 1.5em;
 }
 
-/* 
+/*
     =====================================
                 MODAL CONTACTO
     =====================================
@@ -575,7 +581,7 @@ label {
     width: 10%;
 }
 
-/* 
+/*
     =====================================
                 PRODUCTOS
     =====================================
@@ -645,7 +651,7 @@ label {
     border-radius: 10px;
 }
 
-/* 
+/*
     =====================================
                 PAGINACIÓN
     =====================================
@@ -713,7 +719,7 @@ label {
     border: 0;
 }
 
-/* 
+/*
     =====================================
                 DETALLE PRODUCTO
     =====================================
@@ -765,7 +771,7 @@ label {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #333;
+    color: #1C3E8D;
 }
 
 @media (max-width: 767.98px) {
@@ -808,7 +814,7 @@ label {
     border-top: none;
 }
 
-/* 
+/*
     =====================================
                 REVIEW PRODUCTO
     =====================================
@@ -905,7 +911,7 @@ label {
     padding: 0 0 0 80px;
 }
 
-/* 
+/*
     =====================================
                 STORY-PRODUCTS
     =====================================
@@ -947,14 +953,22 @@ label {
     scroll-snap-align: center;
     border-radius: 12px;
     margin: 12px;
+    border: 1px solid #1C3E8D;
+    color: #1C3E8D;
 }
 
-.story-img > a {
-    display: block;
-    width: 164px;
+.story-img:hover{
+    color: white;
+    background: #1C3E8D;
 }
 
-/* 
+
+/*.story-img{*/
+/*    display: block;*/
+/*    width: 164px;*/
+/*}*/
+
+/*
     =====================================
                 CONTACTO
     =====================================
@@ -1199,7 +1213,7 @@ hr {
     background: var(--blue);
 }
 
-/* 
+/*
     =====================================
                 NOSOTROS
     =====================================
