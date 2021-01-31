@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,500&display=swap");
 
 @-webkit-keyframes rotation {
     from {
@@ -19,6 +19,7 @@
 
 :root {
     --text-secondary: #9a9a9a;
+    --font-app: "Vollkorn", sans-serif;
 }
 
 :root {
@@ -75,11 +76,11 @@ html::after,
 html::before,
 body::after,
 body::before {
-    font-family: "Oswald", sans-serif !important;
+    font-family: var(--font-app), sans-serif !important;
 }
 
 .section-title {
-    font-family: "Oswald", sans-serif !important;
+    font-family: var(--font-app), sans-serif !important;
 
     padding-bottom: 40px;
 
@@ -923,12 +924,34 @@ label {
     display: flex;
 }
 
+.story-row::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.story-row::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.story-row::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.story-row::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
 .story-img {
     scroll-snap-align: center;
-    border-radius: 50%;
-    height: 224px;
-    width: 224px;
-    margin: 24px;
+    border-radius: 12px;
+    margin: 12px;
+}
+
+.story-img > a {
+    display: block;
+    width: 164px;
 }
 
 /* 
@@ -949,7 +972,7 @@ label {
     text-align: center;
     margin: 0 auto;
     padding: 40px 0;
-    font: 300 60px "Oswald", sans-serif;
+    font: 300 60px var(--font-app), sans-serif;
     letter-spacing: 6px;
     color: var(--heading-color);
 }
@@ -964,7 +987,7 @@ label {
 .form-horizontal {
     float: left;
     max-width: 400px;
-    font-family: "Lato";
+    font-family: var(--font-app);
     font-weight: 400;
 }
 
@@ -993,7 +1016,7 @@ textarea {
 .send-text {
     display: block;
     margin-top: 10px;
-    font: 700 12px "Lato", sans-serif;
+    font: 700 12px var(--font-app), sans-serif;
     letter-spacing: 2px;
 }
 
@@ -1019,7 +1042,7 @@ textarea {
 }
 
 .contact-text {
-    font: 300 18px "Oswald", sans-serif;
+    font: 300 18px "Vollkorn", sans-serif;
     letter-spacing: 1.9px;
     color: #bbb;
 }
@@ -1172,10 +1195,6 @@ hr {
     }
 }
 
-.font-oswald {
-    font-family: "Oswald";
-}
-
 .btn-primary {
     background: var(--blue);
 }
@@ -1210,7 +1229,7 @@ hr {
 }
 .aboutus-text {
     color: var(--text-secondary);
-    font-size: 13px;
+    font-size: 1rem;
     line-height: 22px;
     margin: 0 0 35px;
 }
@@ -1225,7 +1244,7 @@ a.aboutus-more:active {
     border-radius: 25px;
     color: var(--secondary-color);
     display: inline-block;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 700;
     letter-spacing: 0;
     padding: 7px 20px;
@@ -1277,7 +1296,7 @@ a.aboutus-more:active {
 }
 .feature .feature-box .feature-content p {
     color: #606060;
-    font-size: 13px;
+    font-size: 1rem;
     line-height: 22px;
 }
 .icon {
@@ -1295,4 +1314,10 @@ a.aboutus-more:active {
 
 .title-color {
     color: var(--heading-color) !important;
+}
+
+@media (max-width: 768px) {
+    .feature-box {
+        padding: 0;
+    }
 }

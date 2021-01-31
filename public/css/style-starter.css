@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,500&display=swap");
 
 /*--
 Author: W3layouts
@@ -41,8 +42,8 @@ Author URL: http://w3layouts.com
         Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-        "Liberation Mono", "Courier New", monospace;
+    --font-family-monospace: "Vollkorn", sans-serif;
+    --font-app: "Vollkorn", sans-serif;
 }
 
 *,
@@ -52,7 +53,7 @@ Author URL: http://w3layouts.com
 }
 
 html {
-    font-family: sans-serif;
+    font-family: var(--font-app);
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -69,14 +70,11 @@ main,
 nav,
 section {
     display: block;
-
 }
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-        "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: var(--font-app);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -204,8 +202,7 @@ pre,
 code,
 kbd,
 samp {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-        "Courier New", monospace;
+    font-family: var(--font-app);
     font-size: 1em;
 }
 
@@ -265,7 +262,7 @@ select,
 optgroup,
 textarea {
     margin: 0;
-    font-family: inherit;
+    font-family: var(--font-app);
     font-size: inherit;
     line-height: inherit;
 }
@@ -3739,7 +3736,6 @@ input[type="button"].btn-block {
     font-size: 0.875rem;
     color: #6c757d;
     white-space: nowrap;
-
 }
 
 .dropdown-item-text {
@@ -6508,9 +6504,7 @@ a.close.disabled {
     z-index: 1070;
     display: block;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-        "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: var(--font-app);
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -6635,9 +6629,7 @@ a.close.disabled {
     z-index: 1060;
     display: block;
     max-width: 276px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-        "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: var(--font-app);
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -10692,8 +10684,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-        "Courier New", monospace !important;
+    font-family: var(--font-app), "Courier New", monospace !important;
 }
 
 .text-justify {
@@ -14148,7 +14139,7 @@ html {
     padding: 0;
     background: var(--bg-color);
     color: var(--font-color);
-    font-family: "Oswald", sans-serif;
+    font-family: var(--font-app), sans-serif !important;
 }
 
 body a,
@@ -14186,7 +14177,7 @@ li,
 span {
     -webkit-appearance: none;
     outline: none;
-    font-family: "Oswald", sans-serif;
+    font-family: var(--font-app), sans-serif;
 }
 
 a,
@@ -14217,7 +14208,7 @@ h6 {
     margin: 0;
     padding: 0;
     color: var(--heading-color);
-    font-family: "Oswald", sans-serif;
+    font-family: var(--font-app), sans-serif;
 }
 
 p {
@@ -15417,8 +15408,6 @@ nav ul li a:hover {
     header {
         height: auto;
         padding: 17px 0;
-
-
     }
 
     .navbar {
@@ -16424,7 +16413,6 @@ h3.title-big {
     object-fit: cover;
     object-position: center;
     min-height: 66vh;
-
 }
 
 .w3l-breadcrumb {

@@ -17,7 +17,6 @@ Route::view('/nosotros', 'about')->name('about');
 
 Route::view('/productos', 'products')->name('products.all');
 
-
 Route::get('/productos/{slug}', 'Product\ProductController@product_detail')->name('product.detail');
 
 Route::view('/contacto', 'contact')->name('contact');
