@@ -6,17 +6,17 @@
     </div> --}}
     <div class="py-3">
         {{-- <img class="img-fluid story-img" src="{{ asset('./assets/images/logo.png') }}" alt="Story Image">
-    
+
         <img class="img-fluid story-img" src="{{ asset('./assets/images/logo.png') }}" alt="Story Image">
-    
+
         <img class="img-fluid story-img" src="{{ asset('./assets/images/logo.png') }}" alt="Story Image">
-    
+
         <img class="img-fluid story-img" src="{{ asset('./assets/images/logo.png') }}" alt="Story Image"> --}}
 
         <div class="row d-flex justify-content-center" style="padding-left:200px;padding-right:200px; ">
             <div class="shadow m-2" style="border:1px solid red;border-radius:50px">
                 <div class="content" >
-                    <a href="{{ route('product.detail','macerado-damasco') }}"><h5 class="px-3 text-center p-3 m-2" style="color: red">Macerado Damascos</h5></a>
+                    <a href="{{ route('product.detail','macerado-damascos') }}"><h5 class="px-3 text-center p-3 m-2" style="color: red">Macerado Damascos</h5></a>
                 </div>
             </div>
 
