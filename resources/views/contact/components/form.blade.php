@@ -32,18 +32,24 @@
                     </div>
                 </form>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-center justify-content-center">
                 <div class="direct-contact-container">
                     <ul class="contact-list">
-                        <li class="list-item"><i class="fa fa-phone fa-2x">
-                    <span class="contact-text phone">
-                        <a href="tel:+51939204100" title="Give me a call">(+51) 939 204 100</a>
-                    </span></i>
+                        <li class="list-item text-left">
+                            <i class="fa fa-phone fa-2x text-color-contact d-inline-block">
+                                <span class="contact-text phone"></span>
+                            </i>
+                            <a href="tel:+51939204100" class="d-inline-block text-center" title="Give me a call">
+                                <span class="font-weight-bold">(+51) 939 204 100</span>
+                            </a>
                         </li>
-                        <li class="list-item"><i class="fa fa-envelope fa-2x">
-                    <span class="contact-text gmail">
-                        <a href="mailto:canablanca.fino.destilado@gmail.com" title="Send me an email">canablanca.fino.destilado@gmail.com</a>
-                    </span></i>
+                        <li class="list-item text-left">
+                            <i class="fa fa-envelope fa-2x text-color-contact d-inline-block text-center">
+                                <span class="contact-text gmail"></span>
+                            </i>
+                            <a href="mailto:canablanca.fino.destilado@gmail.com" class="d-inline-block" title="Send me an email">
+                                <span class="font-weight-bold">canablanca.fino.destilado@gmail.com</span>
+                            </a>
                         </li>
                     </ul>
                     <hr>

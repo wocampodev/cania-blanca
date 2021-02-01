@@ -1058,18 +1058,17 @@ textarea {
 
 .contact-list {
     list-style-type: none;
-    /*margin-left: -30px;*/
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-right: 20px;
     color: #1c3e8d !important;
 }
 
 .list-item {
     line-height: 4;
     /*color: #aaa;*/
+}
+
+.text-color-contact {
+    color: var(--primary-color);
 }
 
 .contact-text {
@@ -1079,15 +1078,29 @@ textarea {
 }
 
 .place {
-    margin-left: 62px;
+    margin-left: 8px;
 }
 
 .phone {
-    margin-left: 56px;
+    margin-left: 8px;
 }
 
 .gmail {
-    margin-left: 53px;
+    margin-left: 8px;
+}
+
+@media (min-width: 768px) {
+    .place {
+        margin-left: 32px;
+    }
+
+    .phone {
+        margin-left: 32px;
+    }
+
+    .gmail {
+        margin-left: 32px;
+    }
 }
 
 .contact-text a {
@@ -1185,7 +1198,6 @@ hr {
 @media screen and (max-width: 569px) {
     .direct-contact-container,
     .form-wrapper {
-        float: none;
         margin: 0 auto;
     }
     .form-control,
@@ -1202,7 +1214,7 @@ hr {
 
     .direct-contact-container {
         margin-top: 60px;
-        max-width: 280px;
+        max-width: 320px;
     }
     .social-media-list {
         left: 0;
