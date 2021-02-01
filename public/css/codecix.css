@@ -935,14 +935,14 @@ label {
     border-bottom-right-radius: 8px;
 }
 
-.story-row {
+/* .story-row {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     display: flex;
-}
+} */
 
-.story-row::-webkit-scrollbar {
+/* .story-row::-webkit-scrollbar {
     width: 8px;
     height: 8px;
 }
@@ -959,10 +959,10 @@ label {
 
 .story-row::-webkit-scrollbar-thumb:active {
     background-color: #999999;
-}
+} */
 
 .story-link {
-    scroll-snap-align: center;
+    /* scroll-snap-align: center; */
     border-radius: 12px;
     margin: 12px;
     border: 1px solid #1c3e8d;
@@ -977,6 +977,7 @@ label {
 .story-link {
     display: block;
     width: auto !important;
+    min-width: 196px !important;
 }
 
 /*
@@ -1059,6 +1060,8 @@ textarea {
     list-style-type: none;
     /*margin-left: -30px;*/
     text-align: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     padding-right: 20px;
     color: #1c3e8d !important;
