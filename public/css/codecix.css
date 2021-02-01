@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap");
 
 @-webkit-keyframes rotation {
     from {
@@ -19,7 +19,7 @@
 
 :root {
     --text-secondary: #9a9a9a;
-    --font-app: "Vollkorn", sans-serif;
+    --font-app: "Lato", sans-serif;
 }
 
 :root {
@@ -168,7 +168,7 @@ body::before {
 .blockquote {
     border-left: none;
     border: 1px solid var(--secondary-color);
-    padding: 20px;
+    padding: 10px;
     font-size: 1.1em;
     line-height: 1.8;
 }
@@ -1320,4 +1320,9 @@ a.aboutus-more:active {
     .feature-box {
         padding: 0;
     }
+}
+
+.footer-codecix {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
 }
