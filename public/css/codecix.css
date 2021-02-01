@@ -154,7 +154,7 @@ body::before {
 }
 
 .text-color{
-    color: #1C3E8D;
+    color: #1C3E8D !important;
 }
 
 
