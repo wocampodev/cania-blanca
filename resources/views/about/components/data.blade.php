@@ -49,10 +49,13 @@
 {{--                            </div>--}}
                             <div class="feature-content">
                                 <h4 class="text-color">Valores</h4>
-                                <p class="my-0">Pasión</p>
-                                <p class="my-0">Compromiso</p>
-                                <p class="my-0">Calidad</p>
-                                <p class="my-0">Innovación</p>
+                                <ul class="list-about-us">
+                                    <li class="my-0">Pasión</li>
+                                    <li class="my-0">Compromiso</li>
+                                    <li class="my-0">Calidad</li>
+                                    <li class="my-0">Innovación</li>
+                                </ul>
+
                             </div>
                         </div>
                     </div>
