@@ -69,6 +69,21 @@
     --header-border-color: #131617;
     --grey: #131617;
 }
+[data-theme="dark"]  .story-img {
+    scroll-snap-align: center;
+    border-radius: 12px;
+    margin: 12px;
+    border: 1px solid #1C3E8D;
+    background: #1C3E8D;
+    color: white;
+
+}
+
+[data-theme="dark"]  .story-img:hover {
+    color: white;
+    background: none;
+    border: 1px solid white;
+}
 
 html,
 body,
@@ -138,6 +153,12 @@ body::before {
     animation: rotation 42s infinite linear;
 }
 
+.text-color{
+    color: #1C3E8D !important;
+}
+
+
+
 @media (max-width: 576px) {
     .hangover-bottle {
         display: none;
@@ -149,7 +170,7 @@ body::before {
         display: none;
     }
 }
-/* 
+/*
     ================================
             SECCIÓN HISTÓRICA
     ================================
@@ -229,7 +250,7 @@ body::before {
 }
 
 .section-story-overview .image-container:nth-child(2) {
-    margin-top: 420px;
+    margin-top: 450px;
 }
 
 .section-story-overview p.blockquote {
@@ -279,7 +300,7 @@ body::before {
     }
 }
 
-/* 
+/*
     ================================
             SECCIÓN CULTURA MOCHE
     ================================
@@ -351,7 +372,7 @@ body::before {
     height: 100%;
 }
 
-/* 
+/*
     ================================
             SECCIÓN CLIENTES
     ================================
@@ -453,7 +474,7 @@ h4 {
     padding: 3em 0 1.5em;
 }
 
-/* 
+/*
     =====================================
                 MODAL CONTACTO
     =====================================
@@ -575,7 +596,7 @@ label {
     width: 10%;
 }
 
-/* 
+/*
     =====================================
                 PRODUCTOS
     =====================================
@@ -645,7 +666,7 @@ label {
     border-radius: 10px;
 }
 
-/* 
+/*
     =====================================
                 PAGINACIÓN
     =====================================
@@ -713,7 +734,7 @@ label {
     border: 0;
 }
 
-/* 
+/*
     =====================================
                 DETALLE PRODUCTO
     =====================================
@@ -765,7 +786,7 @@ label {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #333;
+    color: #1C3E8D;
 }
 
 @media (max-width: 767.98px) {
@@ -808,7 +829,7 @@ label {
     border-top: none;
 }
 
-/* 
+/*
     =====================================
                 REVIEW PRODUCTO
     =====================================
@@ -905,7 +926,7 @@ label {
     padding: 0 0 0 80px;
 }
 
-/* 
+/*
     =====================================
                 STORY-PRODUCTS
     =====================================
@@ -943,18 +964,28 @@ label {
     background-color: #999999;
 }
 
+
+
 .story-img {
     scroll-snap-align: center;
     border-radius: 12px;
     margin: 12px;
+    border: 1px solid #1C3E8D;
+    color: #1C3E8D;
 }
 
-.story-img > a {
-    display: block;
-    width: 164px;
+.story-img:hover{
+    color: white;
+    background: #1C3E8D;
 }
 
-/* 
+
+/*.story-img{*/
+/*    display: block;*/
+/*    width: 164px;*/
+/*}*/
+
+/*
     =====================================
                 CONTACTO
     =====================================
@@ -981,7 +1012,7 @@ label {
     margin: 0 auto;
     padding-top: 20px;
     position: relative;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .form-horizontal {
@@ -1032,19 +1063,22 @@ textarea {
 
 .contact-list {
     list-style-type: none;
-    margin-left: -30px;
+    /*margin-left: -30px;*/
+    text-align: center;
+    justify-content: center;
     padding-right: 20px;
+    color: #1C3E8D !important;
 }
 
 .list-item {
     line-height: 4;
-    color: #aaa;
+    /*color: #aaa;*/
 }
 
 .contact-text {
     font: 300 18px "Vollkorn", sans-serif;
     letter-spacing: 1.9px;
-    color: #bbb;
+    /*color: #bbb;*/
 }
 
 .place {
@@ -1060,13 +1094,13 @@ textarea {
 }
 
 .contact-text a {
-    color: #bbb;
+    /*color: #bbb;*/
     text-decoration: none;
     transition-duration: 0.2s;
 }
 
 .contact-text a:hover {
-    color: var(--bg-color);
+    color: var(--bg-color-2);
     text-decoration: none;
 }
 
@@ -1199,7 +1233,7 @@ hr {
     background: var(--blue);
 }
 
-/* 
+/*
     =====================================
                 NOSOTROS
     =====================================
@@ -1314,6 +1348,10 @@ a.aboutus-more:active {
 
 .title-color {
     color: var(--heading-color) !important;
+}
+
+.list-about-us li{
+    list-style-type: initial;
 }
 
 @media (max-width: 768px) {
