@@ -51,7 +51,7 @@
                                             class="fa fa-angle-right text-uppercase text-primary pr-1"
                                             aria-hidden="true"></i> Calidad</li>
                                     <li class="my-0"><i
-                                            class="fa fa-angle-right text-uppercase text-primary pr-1"
+                                            class="fa fa-angle-right text-uppercase text-color pr-1"
                                             aria-hidden="true"></i> Innovación</li>
                                 </ul>
 

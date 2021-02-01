@@ -1066,12 +1066,13 @@ textarea {
 
 .list-item {
     line-height: 4;
+    justify-content: center;
     /*color: #aaa;*/
 }
 
 .contact-text {
-    font: 300 18px "Vollkorn", sans-serif;
-    letter-spacing: 1.9px;
+    font: 300 15px "Vollkorn", sans-serif;
+    letter-spacing: 1px;
     /*color: #bbb;*/
 }
 
@@ -1347,6 +1348,11 @@ a.aboutus-more:active {
 .list-about-us {
     list-style-type: none;
 }
+
+.list-about-us i {
+    color: var(--secondary-color) !important;
+}
+
 
 @media (max-width: 768px) {
     .feature-box {
