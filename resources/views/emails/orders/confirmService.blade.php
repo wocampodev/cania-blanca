@@ -3,7 +3,9 @@
 
 Su pedido: 
 
-* {{ $service['name'] }}
+* {{ $product['name'] }}
+
+![{{$product['name']}}]({{env('APP_URL', 'http://localhost:8000')}}/assets/images/products/{{$product['image']}} "{{$product['name']}}")
 
 fue solicitado y enviado con éxito, pronto le daremos una respuesta. Gracias.
 
