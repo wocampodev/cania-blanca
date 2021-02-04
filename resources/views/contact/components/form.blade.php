@@ -18,6 +18,12 @@
                     </div>
                     <div class="form-group">
                         <div class="col-sm-12">
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone" name="phone"
+                                   value="" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
                             <textarea class="form-control font-oswald" rows="10"
                                       placeholder="Escribe aquí un mensaje..." name="message" required></textarea>
                         </div>
