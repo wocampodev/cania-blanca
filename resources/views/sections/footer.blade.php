@@ -10,7 +10,7 @@
                         regional y se apodera de los gustos de los lugareños.</p>
                     <p class="mt-4">
                         <span class="fa fa-phone mr-2 ml-2" aria-hidden="true"></span>
-                        <a class="call-style-w3" href="tel:51939204100">(+51) 939204100</a></p>
+                        <a class="call-style-w3" href="tel:51939204100">(+51) 939 204 100</a></p>
                 </div>
                 <div class="col-lg-3 col-sm-4 col-4 mt-lg-0 mt-4">
                     <h3 class="text-center">Navegación</h3>
@@ -84,7 +84,7 @@
 
 <div class="d-flex below-section justify-content-center align-items-center py-4 mt-5 footer-codecix">
     <div class="columns text-lg-left">
-        <p class="copy-text">@ 2020 CAÑABLANCA. Todos los derechos reservados. Desarrollado por 
+        <p class="copy-text text-white">&copy; 2021 CAÑABLANCA. Todos los derechos reservados. Desarrollado por 
             <a href="https://www.codecix.com" target="_blank" class="text-white"> Codecix </a>
         </p>
     </div>

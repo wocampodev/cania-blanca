@@ -2793,15 +2793,15 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #956fef;
+    background-color: #17a2b8;
     box-shadow: none;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
     color: #fff;
-    background-color: #956fef;
-    border-color: #956fef;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
     box-shadow: 0 0 0 0.2rem rgb(102 16 242 / 35%);
 }
 

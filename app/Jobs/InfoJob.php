@@ -7,6 +7,8 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
+use App\Mail\WelcomeMail;
+use Mail;
 
 class InfoJob implements ShouldQueue
 {
@@ -33,6 +35,10 @@ class InfoJob implements ShouldQueue
      */
     public function handle()
     {
-        //
+        $content = $this->content;
+        $affair = $this->affair;
+        $to = $this->to;
+        $envio = new InfoMail($content, $affair);
+        Mail::to($to)->send($envio);
     }
 }
