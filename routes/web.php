@@ -19,6 +19,10 @@ Route::get('/productos', 'Product\ProductController@product_detail')->name('prod
 
 Route::get('/productos/{slug}', 'Product\ProductController@product_detail')->name('product.detail');
 
+<<<<<<< HEAD
 Route::view('/contacto', 'contact')->name('contact');
 
 Route::post('/send-mail', 'Product\ProductController@send_mail')->name('send.mail');
+=======
+Route::view('/contacto', 'contact')->name('contact');
+>>>>>>> 00fb4fd759698009cc62057d227ca47ba5429fd8
