@@ -6,7 +6,7 @@
                 <form id="contact-form" class="form-horizontal" role="form">
                     <div class="form-group">
                         <div class="col-sm-12">
-                            <input type="text" class="form-control" id="name" placeholder="Nombres" name="name" value=""
+                            <input type="text" class="form-control" id="name" placeholder="Nombre" name="name" value=""
                                    required>
                         </div>
                     </div>
@@ -18,21 +18,21 @@
                     </div>
                     <div class="form-group">
                         <div class="col-sm-12">
-                            <input type="tel" class="form-control" id="phone" placeholder="Phone" name="phone"
+                            <input type="tel" class="form-control" id="phone" placeholder="Celular" name="phone"
                                    value="" required>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-12">
                             <textarea class="form-control font-oswald" rows="10"
-                                      placeholder="Escribe aquí un mensaje..." name="message" required></textarea>
+                                      placeholder="Escribe aquí un mensaje..." id="message" name="message" required></textarea>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-12 d-flex justify-content-center">
-                            <button class="btn btn-primary send-button" id="submit" type="submit" value="Enviar">
-                                <i class="fa fa-paper-plane"></i>
-                                <span class="send-text">Enviar</span>
+                            <button class="btn btn-primary send-button" id="btn-submit" type="button" value="Enviar">
+                                <!-- <i class="fa fa-paper-plane"></i> -->
+                                <span class="text-white text-uppercase">Enviar</span>
                             </button>
                         </div>
                     </div>

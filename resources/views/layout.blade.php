@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('css/style-starter.css') }}">
     <link rel="stylesheet" href="{{ asset('css/codecix.css') }}">
+    <meta name="csrf-token" content="{{ csrf_token() }}" id="my-token">
+<!--====== Style CSS ======-->
+<link rel="stylesheet" href="{{ asset('assets/toastr/toastr.min.css') }}">
     @yield('styles')
 </head>
 <body>
@@ -44,7 +47,7 @@
     <!-- //move top -->
 
     <!-- common jquery plugin -->
-    <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-1.12.4.min.js') }}"></script>
     <!-- //common jquery plugin -->
 
     <!-- theme switch js (light and dark)-->
@@ -168,6 +171,12 @@
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <!-- //bootstrap-->
     <!-- //Js scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<!-- Toastr  -->
+<script src="{{ asset('assets/toastr/toastr.min.js') }}"></script>
+<script src="{{asset("assets/js/alerts.js")}}"></script>
+<script src="{{ asset('js/contact.js') }}"></script>
+
     @yield('scripts')
 </body>
 </html>

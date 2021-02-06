@@ -2,11 +2,11 @@
     {{-- Header --}}
     @slot('header')
         @component('mail::header', ['url' => '#'])  
-            Frigo Electric del Perú E.I.R.L
+            CAÑABLANCA FINO DESTILADO
         @endcomponent
     @endslot
     
-    ![Frigo Electric del Perú E.I.R.L](https://mcc-refrigeracion.com/assets/img/frigoelectridelperu-seo.png)
+    ![CAÑABLANCA FINO DESTILADO](https://mcc-refrigeracion.com/assets/img/frigoelectridelperu-seo.png)
 
     {{-- Body --}}
     {{ $slot }}
