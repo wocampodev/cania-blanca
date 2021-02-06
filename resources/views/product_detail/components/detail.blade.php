@@ -62,35 +62,35 @@
     <div class="container mt-5 clearfix justify-content-center">
         <div class=" nobottommargin center">
             <div class="heading">
-                <h2  class="text-color mb-5" >{{ $product['name'] }}</h2>
+                <h2  style="color: #212F59;margin-bottom:5px;">{{ $product['name'] }}</h2>
                 <p>{{ $product['description-long'] }}</p>
             </div>
-
+            
         </div>
     </div>
 
 
-
+   
     <div class="container mt-5 clearfix">
         <div class="col_half nobottommargin center">
             <img src="{{ asset($product['main_img']) }}" alt="Image" class="img-fluid rounded">
         </div>
         <div class="col_half nobottommargin col_last">
-            <div class="heading-block   ">
-                <h4 class="text-color">Ideal para un {{ $product['suggest'] }}</h4>
+            <div class="heading-block">
+                <h4 class="text" style="color: #1C3E8D">Ideal para un {{ $product['suggest'] }}</h4>
                 <p>{{ $product['description-short'] }}</p>
             </div>
-
-                <h5 class="text text-color">El mejor cóctel</h5> <br>
+            
+                <h5 class="text" style="color: #1C3E8D">El mejor cóctel</h5> <br>
                 <?php $count = 1; ?>
             @foreach($product['preparation'] as $preparation )
                 <ul>
-                    <li class="pb-2">{{ $count++ }}. {{$preparation}}</li>
+                    <li>{{ $count++ }}. {{$preparation}}</li>
                 </ul>
                 @endforeach
                 </p>
                 <div class="mt-3 text-center">
-                    <a href="{{ route('contact') }}" class="btn btn-sm button-style text-uppercase">Contáctanos</a>
+                    <a href="{{ route('contact') }}" class="btn btn-sm button-style">Contáctanos<i class="fa fa-arrow-right ml-2"></i></a>
                 </div>
         </div>
     </div>

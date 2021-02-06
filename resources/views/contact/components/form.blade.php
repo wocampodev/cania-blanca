@@ -38,22 +38,6 @@
                     </div>
                 </form>
             </div>
-<<<<<<< HEAD
-            <div class="col-md-6 col-sm-12 col-xs-12 d-flex">
-                <div class="direct-contact-container justify-content-center ">
-                    <ul class="contact-list ">
-                        <li class="list-item">
-                    <span class="contact-text phone">
-                        <i class="fa fa-phone fa-0.6x"></i>
-                        <a href="tel:+51939204100" title="Give me a call">(+51) 939 204 100</a>
-                    </span>
-                        </li>
-                        <li class="list-item">
-                    <span class="contact-text gmail">
-                        <i class="fa fa-envelope fa-0.6x"></i>
-                        <a href="mailto:canablanca.fino.destilado@gmail.com" title="Send me an email">canablanca.fino.destilado@gmail.com</a>
-                    </span>
-=======
             <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-center justify-content-center">
                 <div class="direct-contact-container">
                     <ul class="contact-list">
@@ -72,7 +56,6 @@
                             <a href="mailto:canablanca.fino.destilado@gmail.com" class="d-inline-block" title="Send me an email">
                                 <span class="font-weight-bold">canablanca.fino.destilado@gmail.com</span>
                             </a>
->>>>>>> 00fb4fd759698009cc62057d227ca47ba5429fd8
                         </li>
                     </ul>
                     <hr>
