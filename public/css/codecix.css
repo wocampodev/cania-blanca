@@ -84,6 +84,17 @@
     border: 1px solid white;
 }
 
+[data-theme="dark"]
+.form-control,
+textarea {
+    max-width: 400px;
+    background-color: #00070c;
+    /* color: var(--bg-color);
+     */
+     color: white;
+    letter-spacing: 1px;
+}
+
 html,
 body,
 html::after,
@@ -1021,7 +1032,9 @@ label {
 textarea {
     max-width: 400px;
     background-color: var(--bg-color);
-    color: var(--bg-color);
+    /* color: var(--bg-color);
+     */
+     color: #02407A;
     letter-spacing: 1px;
 }
 

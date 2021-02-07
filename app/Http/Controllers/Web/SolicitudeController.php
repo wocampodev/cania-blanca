@@ -13,6 +13,8 @@ class SolicitudeController extends Controller
 {
     public function new_contact(Request $request){
         // return $request;
+
+        dd($request);
         $name = $request->name;
         $email = $request->email;
         $phone =  $request->phone;
