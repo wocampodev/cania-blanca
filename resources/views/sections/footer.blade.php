@@ -6,9 +6,9 @@
                     <a class="navbar-brand d-flex justify-content-center" href="{{ url('/') }}">
                         <img src="{{ asset('assets/images/logo.png') }}" alt="CAÑABLANCA" title="Caña Blanca" style="height:55px;"/>
                     </a>
-                    <p class="mt-1">Al igual que el pisco en el sur, el aguardiente o destilado de caña, toma identidad
+                    <p class="mt-1 text-center">Al igual que el pisco en el sur, el aguardiente o destilado de caña, toma identidad
                         regional y se apodera de los gustos de los lugareños.</p>
-                    <p class="mt-4">
+                    <p class="mt-4 text-center">
                         <span class="fa fa-phone mr-2 ml-2" aria-hidden="true"></span>
                         <a class="call-style-w3" href="tel:51939204100">(+51) 939 204 100</a></p>
                 </div>

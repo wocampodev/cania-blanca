@@ -84,14 +84,13 @@
     border: 1px solid white;
 }
 
-[data-theme="dark"]
-.form-control,
+[data-theme="dark"] .form-control,
 textarea {
     max-width: 400px;
     background-color: #00070c;
     /* color: var(--bg-color);
      */
-     color: white;
+    color: white;
     letter-spacing: 1px;
 }
 
@@ -266,7 +265,7 @@ body::before {
     min-height: 180px;
     text-align: left;
     position: absolute;
-    
+
     top: 376px;
     /* right: 155px; */
     z-index: 0;
@@ -1035,7 +1034,7 @@ textarea {
     background-color: var(--bg-color);
     /* color: var(--bg-color);
      */
-     color: #02407A;
+    color: #02407a;
     letter-spacing: 1px;
 }
 
@@ -1343,7 +1342,7 @@ a.aboutus-more:active {
 .feature .feature-box .feature-content {
     float: left;
     padding-left: 28px;
-    width: 78%;
+    width: 100%;
 }
 .feature .feature-box .feature-content h4 {
     color: var(--footer-color);
@@ -1381,7 +1380,6 @@ a.aboutus-more:active {
 .list-about-us i {
     color: var(--secondary-color) !important;
 }
-
 
 @media (max-width: 768px) {
     .feature-box {
