@@ -69,10 +69,10 @@ class SolicitudeController extends Controller
                 Mail::to($email)->send($confirm_client); 
                 $response = ['status'=>'success'];
                 
-                DB::commit();
+                // DB::commit();
             }catch(\Exception $e) {
                 dd($e);  
-                DB::rollback();
+                // DB::rollback();
                 $response = ['status'=>'fail-send'];
             }
             return $response;
