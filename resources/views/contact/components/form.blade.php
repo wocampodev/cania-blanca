@@ -7,25 +7,25 @@
                     <div class="form-group">
                         <div class="col-sm-12">
                             <input type="text" class="form-control" id="name" placeholder="Nombre" name="name" value=""
-                                   required>
+                                   >
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-12">
                             <input type="email" class="form-control" id="email" placeholder="Email" name="email"
-                                   value="" required>
+                                   value="" >
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-12">
                             <input type="tel" class="form-control" id="phone" placeholder="Celular" name="phone"
-                                   value="" required>
+                                   value="" >
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-12">
                             <textarea class="form-control font-oswald" rows="10"
-                                      placeholder="Escribe aquí un mensaje..." id="message" name="message" required></textarea>
+                                      placeholder="Escribe aquí un mensaje..." id="message" name="message" ></textarea>
                         </div>
                     </div>
                     <div class="form-group">
