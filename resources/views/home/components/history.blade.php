@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="image-container image-left" style="background-image: url('assets/images/products/azul_ancha.jpg')">
-                        <p class="blockquote main-text-color  mx-lg-5 my-lg-5 mx-md-4 my-md-4  mx-sm-1">"CAÑABLANCA pone en las manos de nuestros paisanos del norte del Perú un destilado de caña de azúcar que nace de nuestros propios cultivos de caña, las cuales son procesadas in situ, manteniendo la frescura de las mismas y obteniendo un mosto o guarapo delicioso y agradable."
+                        <p class="blockquote main-text-color mx-lg-5 my-lg-0 px-lg-3 py-lg-5  mr-md-3 my-md-5 p-md-3  p-sm-4">"CAÑABLANCA pone en las manos de nuestros paisanos del norte del Perú un destilado de caña de azúcar que nace de nuestros propios cultivos de caña, las cuales son procesadas in situ, manteniendo la frescura de las mismas y obteniendo un mosto o guarapo delicioso y agradable."
                             <br>
                             <br>
                             <span>- Paul Alfonso Huanambal Mimbela</span>
