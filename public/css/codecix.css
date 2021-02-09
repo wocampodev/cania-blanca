@@ -262,12 +262,13 @@ body::before {
 }
 
 .section-story-overview p.blockquote {
-    width: 320px;
+    /* width: 320px; */
     min-height: 180px;
     text-align: left;
     position: absolute;
+    
     top: 376px;
-    right: 155px;
+    /* right: 155px; */
     z-index: 0;
 }
 

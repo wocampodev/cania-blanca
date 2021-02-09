@@ -1,5 +1,5 @@
 <section id="contact">
-    <h1 class="section-header">CONTACTO</h1>
+    <h1 class="section-header text">CONTACTO</h1>
     <div class="contact-wrapper">
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12">
