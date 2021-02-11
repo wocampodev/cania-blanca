@@ -30,7 +30,7 @@
                     </div>
                     <div class="form-group">
                         <div class="col-sm-12 d-flex justify-content-center">
-                            <button class="btn btn-primary send-button" send-button" id="btn-submit" type="button" value="Enviar">
+                            <button class="btn btn-primary send-button"  id="btn-submit" type="button" value="Enviar">
                                 <span class="spinner-border spinner spinner-border-sm d-none" role="status" aria-hidden="true"></span>
                                 <span class="text-white text-uppercase">Enviar...</span>
                               </button>
