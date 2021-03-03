@@ -1,4 +1,4 @@
-<section class="featured-products product-img-list">
+<section class="featured-products product-img-list bg-adornos">
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-md-7 heading-section text-center client-animate">
@@ -6,90 +6,24 @@
             </div>
         </div>
         <div class="row d-flex justify-content-center">
-            <div class="col-lg-3">
+            @foreach ($products as $key => $product)
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="product-item shadow rounded">
-                    <img class="img-fluid product-img-content" src="{{ asset('assets/images/products/azul.jpg') }}" alt="Licor Cañablanca">
-                    <div class="content">
-                        <div class="type">
-                            <img class="img-fluid product-img-culture" src="{{ asset('assets/images/moche.svg') }}" alt="Iconografía Moche">
-                        </div>
-                        <h5 class="px-3 text-center">Mosto Verde</h5>
+                    <img class="img-fluid product-img-content" src="{{ $product['main_img'] }}" alt="{{ $product['name'] }}" loading="lazy">
+                    <div class="content content-card">
+                        {{-- <div class="type">
+                            <img class="img-fluid product-img-culture" src="{{ asset('assets/images/moche.svg') }}" alt="Iconografía Moche" loading="lazy">
+                        </div> --}}
+                        <h5 class="px-3 text-center">{{ $product['name'] }}</h5>
                         <div class="d-flex justify-content-center">
-                            <a href="{{ route('product.detail','mosto-verde') }}" class="btn btn-sm button-style mb-3 text-uppercase">Saber más</a>
+                            <a href="{{ route('product.detail', $key) }}" class="btn btn-sm button-style mb-3 text-uppercase">Saber más</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <div class="product-item shadow rounded">
-                    <img class="img-fluid product-img-content" src="{{ asset('assets/images/products/verde.jpg') }}" alt="Licor Cañablanca">
-                    <div class="content">
-                        <div class="type">
-                            <img class="img-fluid product-img-culture" src="{{ asset('assets/images/moche.svg') }}" alt="Iconografía Moche">
-                        </div>
-                        <h5 class="px-3 text-center">Uva Italia</h5>
-                        <div class="d-flex justify-content-center">
-                            <a href="{{ route('product.detail','uva-italia') }}" class="btn btn-sm button-style mb-3 text-uppercase">Saber más</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="product-item shadow rounded">
-                    <img class="img-fluid product-img-content" src="{{ asset('assets/images/products/roja.jpg') }}" alt="Licor Cañablanca">
-                    <div class="content">
-                        <div class="type">
-                            <img class="img-fluid product-img-culture" src="{{ asset('assets/images/moche.svg') }}" alt="Iconografía Moche">
-                        </div>
-                        <h5 class="px-3 text-center">Macerado en Damascos</h5>
-                        <div class="d-flex justify-content-center">
-                            <a href="{{ route('product.detail','macerado-damascos') }}" class="btn btn-sm button-style mb-3 text-uppercase">Saber más</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="product-item shadow rounded">
-                    <img class="img-fluid product-img-content" src="{{ asset('assets/images/products/roja.jpg') }}" alt="Licor Cañablanca">
-                    <div class="content">
-                        <div class="type">
-                            <img class="img-fluid product-img-culture" src="{{ asset('assets/images/moche.svg') }}" alt="Iconografía Moche">
-                        </div>
-                        <h5 class="px-3 text-center">Manzanilla</h5>
-                        <div class="d-flex justify-content-center">
-                            <a href="{{ route('product.detail','manzanilla') }}" class="btn btn-sm button-style mb-3 text-uppercase">Saber más</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="product-item shadow rounded" >
-                    <img class="img-fluid product-img-content" src="{{ asset('assets/images/products/azul.jpg') }}" alt="Licor Cañablanca">
-                    <div class="content">
-                        <div class="type">
-                            <img class="img-fluid product-img-culture" src="{{ asset('assets/images/moche.svg') }}" alt="Iconografía Moche">
-                        </div>
-                        <h5 class="px-3 text-center">Hierba Luisa</h5>
-                        <div class="d-flex justify-content-center">
-                            <a href="{{ route('product.detail','hierba-luisa') }}" class="btn btn-sm button-style mb-3 text-uppercase">Saber más</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="product-item shadow rounded">
-                    <img class="img-fluid product-img-content" src="{{ asset('assets/images/products/verde.jpg') }}" alt="Licor Cañablanca">
-                    <div class="content">
-                        <div class="type">
-                            <img class="img-fluid product-img-culture" src="{{ asset('assets/images/moche.svg') }}" alt="Iconografía Moche">
-                        </div>
-                        <h5 class="px-3 text-center">Cogollito</h5>
-                        <div class="d-flex justify-content-center">
-                            <a href="{{ route('product.detail','cogollito') }}" class="btn btn-sm button-style mb-3 text-uppercase">Saber más</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
+    <div class="bg-adornos-1"></div>
+    <div class="bg-adornos-2"></div>
 </section>

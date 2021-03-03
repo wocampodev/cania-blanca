@@ -671,7 +671,7 @@ label {
     object-fit: cover;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 /*
@@ -1390,4 +1390,33 @@ a.aboutus-more:active {
 .footer-codecix {
     background-color: var(--primary-color);
     color: var(--bg-color);
+}
+
+/* NUEVOS CAMBIOS */
+
+.bg-adornos {
+    position: relative;
+    background-color: #c0fab6;
+}
+
+.bg-adornos-1 {
+    background: url("../assets/images/backgrounds/cania-1.png");
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 272px;
+    height: 186px;
+}
+
+.bg-adornos-2 {
+    background: url("../assets/images/backgrounds/cania-2.png");
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 303px;
+    height: 224px;
+}
+
+.content-card {
+    background: #fafafa;
 }

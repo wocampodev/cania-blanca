@@ -15,7 +15,7 @@ Route::view('/', 'home')->name('home');
 
 Route::view('/nosotros', 'about')->name('about');
 
-Route::get('/productos', 'Product\ProductController@product_detail')->name('products.all');
+Route::get('/productos', 'Product\ProductController@getProducts')->name('products.all');
 
 Route::get('/productos/{slug}', 'Product\ProductController@product_detail')->name('product.detail');
 
