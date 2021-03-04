@@ -110,7 +110,7 @@ body::before {
 
     font-size: 35px;
     line-height: 40px;
-    margin-top: 6px;
+    margbottom: 6px;
     margin-bottom: 20px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1392,6 +1392,15 @@ a.aboutus-more:active {
     color: var(--bg-color);
 }
 
+/*
+================================
+================================
+================================
+================================
+================================
+================================
+================================
+*/
 /* NUEVOS CAMBIOS */
 
 .bg-adornos {
@@ -1401,22 +1410,70 @@ a.aboutus-more:active {
 
 .bg-adornos-1 {
     background: url("../assets/images/backgrounds/cania-1.png");
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     right: 0;
-    width: 272px;
-    height: 186px;
+    width: 27%;
+    height: 18%;
 }
 
 .bg-adornos-2 {
     background: url("../assets/images/backgrounds/cania-2.png");
+    background-repeat: no-repeat;
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 303px;
-    height: 224px;
+    width: 30%;
+    height: 22%;
 }
 
 .content-card {
     background: #fafafa;
+}
+
+.altura-seccion-producto {
+    height: 91vh;
+}
+
+.producto-imagen {
+    width: 44%;
+    height: 54%;
+}
+
+.texto-principal {
+    color: #1c3e8d;
+}
+
+.modal-content {
+    background-color: #dce3ff !important;
+    border: 20px solid #013565 !important;
+}
+
+.modal-product {
+    position: relative;
+}
+
+.modal-header {
+    border: none !important;
+}
+
+.icon-modal-1 {
+    background: url("../assets/images/backgrounds/cania-play-1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17%;
+    height: 12%;
+}
+
+.icon-modal-2 {
+    background: url("../assets/images/backgrounds/cania-play-2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height: 16%;
 }
