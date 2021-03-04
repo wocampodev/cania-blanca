@@ -2,12 +2,12 @@
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-md-7 heading-section text-center client-animate">
-                <h2 class="title">Nuestro Licor</h2>
+                <h1 class="title" style="position: relative; z-index: 999;"><b class="text-uppercase">Nuestro Licor</b></h1>
             </div>
         </div>
         <div class="row d-flex justify-content-center">
             @foreach ($products as $key => $product)
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12" style="position: static; z-index: 1;">
                 <div class="product-item shadow rounded">
                     <img class="img-fluid product-img-content" src="{{ $product['main_img'] }}" alt="{{ $product['name'] }}" loading="lazy">
                     <div class="content content-card">

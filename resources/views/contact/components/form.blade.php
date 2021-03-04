@@ -1,80 +1,39 @@
-<section id="contact">
-    <h1 class="section-header text">CONTACTO</h1>
-    <div class="contact-wrapper">
+<section class="section mt-5 pt-5" style="background-color: #ffffff;">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12">
-                <form id="contact-form" class="form-horizontal" role="form">
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="text" class="form-control" id="name" placeholder="Nombre" name="name" value=""
-                                   required>
-                        </div>
+                <img class="img-fluid" src="{{ asset('/assets/images/form-bg.png') }}" alt="Cañablanca">
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <h2 class="text texto-principal text-center" style="font-weight: 700; font-size: 32px;">PREPARA TU TRAGO FAVORITO</h2>
+                <h4 class="text-center text mt-4">Contáctanos y pidenos tu producto favorito</h4>
+                <form id="contact-form" class="w-100 mt-4 mx-auto" role="form">
+                    <div class="form-group mx-auto">
+                        <label for="name" class="col-form-label texto-principal" style="font-weight: bold;">Nombre y Apellidos</label>
+                        <input type="text" class="form-control" id="name" placeholder="Nombre y Apellidos" name="name" required>
                     </div>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="email" class="form-control" id="email" placeholder="Email" name="email"
-                                   value="" required>
-                        </div>
+                    <div class="form-group mx-auto">
+                        <label for="email" class="col-form-label texto-principal" style="font-weight: bold;">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
                     </div>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="tel" class="form-control" id="phone" placeholder="Celular" name="phone"
-                                   value="" required>
-                        </div>
+                    <div class="form-group mx-auto">
+                        <label for="phone" class="col-form-label texto-principal" style="font-weight: bold;">Celular</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Celular" name="phone" required>
                     </div>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <textarea class="form-control font-oswald" rows="10"
-                                      placeholder="Escribe aquí un mensaje..." id="message" name="message" required></textarea>
-                        </div>
+                    <div class="form-group mx-auto">
+                        <label for="message" class="col-form-label texto-principal" style="font-weight: bold;">Mensaje</label>
+                        <textarea class="form-control font-oswald" rows="7" placeholder="Escribe aquí un mensaje..." id="message" name="message" required style="resize: none;"></textarea>
                     </div>
-                    <div class="form-group">
-                        <div class="col-sm-12 d-flex justify-content-center">
-                            <button class="btn btn-primary send-button" send-button" id="btn-submit" type="button" value="Enviar">
+                    <div class="form-group mx-auto">
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-md button-style" id="btn-submit" type="button" value="Enviar">
                                 <span class="spinner-border spinner spinner-border-sm d-none" role="status" aria-hidden="true"></span>
-                                <span class="text-white text-uppercase">Enviar...</span>
+                                <span class="text-white text-uppercase">Pedir</span>
                               </button>
                         </div>
                     </div>
                 </form>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-center justify-content-center">
-                <div class="direct-contact-container">
-                    <ul class="contact-list">
-                        <li class="list-item text-left">
-                            <i class="fa fa-phone fa-2x text-color-contact d-inline-block">
-                                <span class="contact-text phone"></span>
-                            </i>
-                            <a href="tel:+51939204100" class="d-inline-block text-center" title="Give me a call">
-                                <span class="font-weight-bold">(+51) 939 204 100</span>
-                            </a>
-                        </li>
-                        <li class="list-item text-left">
-                            <i class="fa fa-envelope fa-2x text-color-contact d-inline-block text-center">
-                                <span class="contact-text gmail"></span>
-                            </i>
-                            <a href="mailto:canablanca.fino.destilado@gmail.com" class="d-inline-block" title="Send me an email">
-                                <span class="font-weight-bold">canablanca.fino.destilado@gmail.com</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <hr>
-                    <ul class="social-media-list">
-                        <li>
-                            <a href="#" target="_blank" class="contact-icon">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank" class="contact-icon">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <hr>
-                </div>
-            </div>
         </div>
-
     </div>
 </section>
