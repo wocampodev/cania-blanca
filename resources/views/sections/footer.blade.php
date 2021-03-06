@@ -84,8 +84,8 @@
 
 <div class="d-flex below-section justify-content-center align-items-center py-4 mt-5 footer-codecix">
     <div class="columns text-lg-left">
-        <p class="copy-text text-white">&copy; 2021 CAÑABLANCA. Todos los derechos reservados. Desarrollado por 
-            <a href="https://www.codecix.com" target="_blank" class="text-white"> Codecix </a>
+        <p class="copy-text text-white"><b>&copy; 2021 CAÑABLANCA.</b> Todos los derechos reservados. Desarrollado por
+            <a href="https://www.codecix.com" target="_blank" class="text-white"> <b>Codecix</b> </a>
         </p>
     </div>
 </div>

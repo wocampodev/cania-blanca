@@ -14082,7 +14082,7 @@ a.text-dark:focus {
     /* --primary-dark: #ffc945; */
     --primary-dark: #013565;
     /* --secondary-color: #0abf53; */
-    --secondary-color: #0467c2;
+    --secondary-color: #253a69;
     --font-color: #6b6768;
     --bg-color: #fff;
     --bg-color-2: #0467c2;
@@ -14107,7 +14107,7 @@ a.text-dark:focus {
     /* --primary-light: #ffc945; */
     --primary-light: #0467c2;
     /* --secondary-color: #0abf53; */
-    --secondary-color: #0467c2;
+    --secondary-color: #253a69;
     --primary-dark: #00070c;
     --font-color: #b7b7b7;
     --bg-color: #131617;
@@ -15579,7 +15579,7 @@ h3.title-main {
 /*-- //title style --*/
 /*-- banner --*/
 .w3l-banner {
-    background: url(../assets/images/banner-cania-blanca.png) no-repeat center;
+    background: url(../assets/images/banner-main.png) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -15592,6 +15592,14 @@ h3.title-main {
     display: flex;
     align-items: center;
     position: relative;
+}
+
+@media (max-width: 960px) {
+    .w3l-banner {
+        background: url(../assets/images/banner-main-mobile.png) no-repeat
+            center;
+        width: 100vw;
+    }
 }
 
 .w3l-banner h3 {

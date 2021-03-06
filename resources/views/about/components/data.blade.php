@@ -1,4 +1,4 @@
-<div class="aboutus-section">
+<div class="aboutus-section" style="background-color: #fafafa;">
     <div class="container">
         <div class="row">
 

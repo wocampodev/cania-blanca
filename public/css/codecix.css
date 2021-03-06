@@ -27,7 +27,7 @@
     --primary-color: #02407a;
     --primary-light: #fcf1e7;
     --primary-dark: #013565;
-    --secondary-color: #0467c2;
+    --secondary-color: #253a69;
     --font-color: #6b6768;
     --bg-color: #fff;
     --bg-color-2: #0467c2;
@@ -51,7 +51,7 @@
     --theme-color: #e40000;
     --primary-color: #02407a;
     --primary-light: #0467c2;
-    --secondary-color: #0467c2;
+    --secondary-color: #253a69;
     --primary-dark: #00070c;
     --font-color: #b7b7b7;
     --bg-color: #131617;
@@ -86,7 +86,7 @@
 
 [data-theme="dark"] .form-control,
 textarea {
-    max-width: 400px;
+    /* max-width: 400px; */
     background-color: #00070c;
     /* color: var(--bg-color);
      */
@@ -110,7 +110,7 @@ body::before {
 
     font-size: 35px;
     line-height: 40px;
-    margin-top: 6px;
+    margbottom: 6px;
     margin-bottom: 20px;
     font-weight: 600;
     text-transform: uppercase;
@@ -671,7 +671,7 @@ label {
     object-fit: cover;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 /*
@@ -1030,7 +1030,7 @@ label {
 
 .form-control,
 textarea {
-    max-width: 400px;
+    /* max-width: 400px; */
     background-color: var(--bg-color);
     /* color: var(--bg-color);
      */
@@ -1390,4 +1390,106 @@ a.aboutus-more:active {
 .footer-codecix {
     background-color: var(--primary-color);
     color: var(--bg-color);
+}
+
+/*
+================================
+================================
+================================
+================================
+================================
+================================
+================================
+*/
+/* NUEVOS CAMBIOS */
+
+.bg-adornos {
+    position: relative;
+    background-color: #c0fab6;
+}
+
+.bg-adornos-1 {
+    background: url("../assets/images/backgrounds/cania-1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 270px;
+    height: 180px;
+}
+
+.bg-adornos-2 {
+    background: url("../assets/images/backgrounds/cania-2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 220px;
+}
+
+.content-card {
+    background: #fafafa;
+}
+
+.altura-seccion-producto {
+    height: 91vh;
+}
+
+.producto-imagen {
+    width: 44%;
+    height: 44%;
+}
+
+.texto-principal {
+    color: #1c3e8d;
+}
+
+.modal-content {
+    background-color: #dce3ff !important;
+    border: 20px solid #013565 !important;
+}
+
+.modal-product {
+    position: relative;
+}
+
+.modal-header {
+    border: none !important;
+}
+
+.icon-modal {
+    background: url("../assets/images/backgrounds/cania-play-2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 17%;
+    height: 20%;
+}
+
+.adorno-modal {
+    height: 84px;
+}
+
+.border-product {
+    border-left: 20px solid #5ff647;
+}
+
+@media (max-width: 768px) {
+    .border-product {
+        border: none;
+    }
+    .imagen-producto {
+        height: 480px;
+    }
+    .altura-seccion-producto {
+        padding-bottom: 120px;
+        margin-bottom: 120px;
+    }
+}
+
+.form-control {
+    border: 2px solid #013565;
+    border-radius: 16px;
 }

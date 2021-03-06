@@ -2,7 +2,7 @@
 
 @section('content')
 
-    @include('sections.banner-inner')
+    {{-- @include('sections.banner-inner') --}}
 
     @include('product.components.gallery')
 
