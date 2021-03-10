@@ -1478,7 +1478,7 @@ a.aboutus-more:active {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .call-section {
         padding-top: 0;
     }
