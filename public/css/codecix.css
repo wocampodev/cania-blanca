@@ -1468,13 +1468,16 @@ a.aboutus-more:active {
     .icon-modal {
         display: none;
     }
-    .call-section {
-        padding-top: 108px;
-    }
 }
-@media (max-width: 1024px) {
+@media (min-width: 768px) {
     .call-section {
         padding-top: 308px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .call-section {
+        padding-top: 0;
     }
 }
 
