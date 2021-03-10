@@ -1,4 +1,4 @@
-<section class="w3l-call-to-action-6">
+<section class="w3l-call-to-action-6 call-section">
     <div class="call-vv-action py-5">
         <div class="container py-md-4 py-3">
             <div class="grid">

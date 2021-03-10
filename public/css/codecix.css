@@ -946,32 +946,6 @@ label {
     border-bottom-right-radius: 8px;
 }
 
-/* .story-row {
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-    display: flex;
-} */
-
-/* .story-row::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-}
-
-.story-row::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 4px;
-}
-
-.story-row::-webkit-scrollbar-thumb:hover {
-    background: #b3b3b3;
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.story-row::-webkit-scrollbar-thumb:active {
-    background-color: #999999;
-} */
-
 .story-link {
     /* scroll-snap-align: center; */
     border-radius: 12px;
@@ -1437,8 +1411,8 @@ a.aboutus-more:active {
 }
 
 .producto-imagen {
-    width: 44%;
-    height: 44%;
+    max-width: 84%;
+    max-height: 84%;
 }
 
 .texto-principal {
@@ -1476,6 +1450,10 @@ a.aboutus-more:active {
     border-left: 20px solid #5ff647;
 }
 
+.call-section {
+    background-color: var(--bg-light);
+}
+
 @media (max-width: 768px) {
     .border-product {
         border: none;
@@ -1486,6 +1464,14 @@ a.aboutus-more:active {
     .altura-seccion-producto {
         padding-bottom: 120px;
         margin-bottom: 120px;
+    }
+    .icon-modal {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .call-section {
+        padding-top: 108px;
     }
 }
 
