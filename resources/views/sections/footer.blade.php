@@ -2,7 +2,7 @@
     <div class="w3l-footer-16-main">
         <div class="container">
             <div class="row footer-p">
-                <div class="col-lg-3 pr-lg-5">
+                <div class="col-md-3 pr-lg-5">
                     <a class="navbar-brand d-flex justify-content-center" href="{{ url('/') }}">
                         <img src="{{ asset('assets/images/logo.png') }}" alt="CAÑABLANCA" title="Caña Blanca" style="height:55px;"/>
                     </a>
@@ -12,7 +12,7 @@
                         <span class="fa fa-phone mr-2 ml-2" aria-hidden="true"></span>
                         <a class="call-style-w3" href="tel:51939204100">(+51) 939 204 100</a></p>
                 </div>
-                <div class="col-lg-3 col-sm-4 col-4 mt-lg-0 mt-4">
+                <div class="col-md-3 mt-lg-0 mt-4">
                     <h3 class="text-center">Navegación</h3>
                     <div class="row text-left">
                         <div class="col-12 column ">
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-4 col-4 mt-lg-0 mt-4">
+                <div class="col-md-3 mt-lg-0 mt-4">
                     <h3 class="text-center">Productos</h3>
                     <div class="row text-left">
                         <div class="col-12 column ">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-4 col-4 column mt-lg-0 mt-4">
+                <div class="col-md-3 column mt-lg-0 mt-4">
                     <h3 class="text-center">Encuentranos en:</h3>
                     <div class="row">
                         <div class="col-12 column">
@@ -84,7 +84,7 @@
 
 <div class="d-flex below-section justify-content-center align-items-center py-4 mt-5 footer-codecix">
     <div class="columns text-lg-left">
-        <p class="copy-text text-white"><b>&copy; 2021 CAÑABLANCA.</b> Todos los derechos reservados. Desarrollado por
+        <p class="copy-text text-white text-center"><b>&copy; 2021 CAÑABLANCA.</b> Todos los derechos reservados. Desarrollado por
             <a href="https://www.codecix.com" target="_blank" class="text-white"> <b>Codecix</b> </a>
         </p>
     </div>
