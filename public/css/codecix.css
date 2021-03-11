@@ -1403,6 +1403,12 @@ a.aboutus-more:active {
 */
 /* NUEVOS CAMBIOS */
 
+.bg-adornos-damasco {
+    position: relative;
+    background-color: #FAE7B6;
+}
+
+
 .bg-adornos {
     position: relative;
     background-color: #c0fab6;
@@ -1470,6 +1476,10 @@ a.aboutus-more:active {
 
 .adorno-modal {
     height: 84px;
+}
+
+.border-product-damasco {
+    border-left: 20px solid #F6C547;
 }
 
 .border-product {

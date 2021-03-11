@@ -32,6 +32,8 @@ class ProductController extends Controller
                 'Adicionar un fino chorro de granadina.',
             ],
             'main_img' => './assets/images/products/macerado_damascos.png',
+            'color_dark'=> 'border-product-damasco',
+            'color_light'=> 'bg-adornos-damasco',
         ],
         'uva-italia' => [
             'name' => 'UVA ITALIA',
