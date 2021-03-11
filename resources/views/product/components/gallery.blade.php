@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-md-7 heading-section text-center client-animate">
-                <h1 class="title" style="position: relative; z-index: 999;"><b class="text-uppercase">Nuestro Licor</b></h1>
+                <h1 class="title mt-5" style="position: relative; z-index: 999;"><b class="text-uppercase">Nuestro Licor</b></h1>
             </div>
         </div>
         <div class="row d-flex justify-content-center">

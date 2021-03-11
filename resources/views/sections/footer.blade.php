@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-md-3 mt-lg-0 mt-4">
                     <h3 class="text-center">Navegación</h3>
-                    <div class="row text-left">
+                    <div class="row text-center">
                         <div class="col-12 column ">
                             <ul class="footer-gd-16">
                                 <li class="d-flex text-md-center"><a  class="w-100" href="{{ route('home') }}"><i
@@ -35,7 +35,7 @@
                 </div>
                 <div class="col-md-3 mt-lg-0 mt-4">
                     <h3 class="text-center">Productos</h3>
-                    <div class="row text-left">
+                    <div class="row text-center">
                         <div class="col-12 column ">
                             <ul class="footer-gd-16">
                                 <li class="d-flex text-md-center"> <a class="w-100"  href="{{ route('product.detail','macerado-damascos') }}"><i
