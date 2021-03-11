@@ -7,16 +7,9 @@
             </div>
             <div class="col-md-12 col-lg-6 text-center">
                 <div class="culture-mockup">
-                    
                     <figure class="figure d-none d-lg-block">
-                      <img src="{{asset('assets/images/medalla_sipan.jpg')}}" class="img-fluid rounded  w-75">
-                      
+                        <img src="{{asset('assets/images/medalla_sipan.jpg')}}" class="img-fluid rounded w-75">
                     </figure>
-
-
-                    <!--<div class="screen">-->
-                    <!--    <div class="screen-content" style="background-image: url('assets/images/senior_sipan.jpg')"></div>-->
-                    <!--</div>-->
                 </div>
             </div>
         </div>
