@@ -103,7 +103,7 @@ body::before {
     font-family: var(--font-app), sans-serif !important;
 }
 
-.color-black{
+.color-black {
     color: #00070c;
 }
 
@@ -1380,39 +1380,38 @@ a.aboutus-more:active {
 ================================
 */
 /* NUEVOS CAMBIOS */
-.bg-products{
+.bg-products {
     background-color: #dce3ff !important;
 }
 
 .bg-adornos-damasco {
     position: relative;
-    background-color: #FAE7B6;
+    background-color: #fae7b6;
 }
-.bg-adornos-cogollito  {
+.bg-adornos-cogollito {
     position: relative;
-    background-color: #D9F8E3;
+    background-color: #d9f8e3;
 }
-.bg-adornos-manzanilla  {
+.bg-adornos-manzanilla {
     position: relative;
-    background-color: #EAF7B7;
+    background-color: #eaf7b7;
 }
 .bg-adornos-arandano {
     position: relative;
-    background-color: #EBD7FB;
+    background-color: #ebd7fb;
 }
 .bg-adornos-uva-italia {
     position: relative;
-    background-color: #CCFDA5;
+    background-color: #ccfda5;
 }
 .bg-adornos-mosto-verde {
     position: relative;
-    background-color: #C0FAB6;
+    background-color: #c0fab6;
 }
 .bg-adornos-hierba-luisa {
     position: relative;
-    background-color: #F1E7CE;
+    background-color: #f1e7ce;
 }
-
 
 .bg-adornos {
     position: relative;
@@ -1462,32 +1461,32 @@ a.aboutus-more:active {
 }
 
 .modal-content-damasco {
-    background-color: #FAE7B6 !important;
-    border: 20px solid #F6C547 !important;
+    background-color: #fae7b6 !important;
+    border: 20px solid #f6c547 !important;
 }
 .modal-content-mosto-verde {
-    background-color: #C0FAB6 !important;
-    border: 20px solid #5FF647 !important;
+    background-color: #c0fab6 !important;
+    border: 20px solid #5ff647 !important;
 }
 .modal-content-uva-italia {
-    background-color: #CCFDA5 !important;
-    border: 20px solid #99FF49 !important;
+    background-color: #ccfda5 !important;
+    border: 20px solid #99ff49 !important;
 }
 .modal-content-arandano {
-    background-color: #EBD7FB !important;
-    border: 20px solid #CB97D3 !important;
+    background-color: #ebd7fb !important;
+    border: 20px solid #cb97d3 !important;
 }
 .modal-content-hierba-luisa {
-    background-color: #EAF7B7 !important;
-    border: 20px solid #CCF528 !important;
+    background-color: #eaf7b7 !important;
+    border: 20px solid #ccf528 !important;
 }
 .modal-content-cogollito {
-    background-color: #D9F8E3 !important;
-    border: 20px solid #6FF29C !important;
+    background-color: #d9f8e3 !important;
+    border: 20px solid #6ff29c !important;
 }
 .modal-content-manzanilla {
-    background-color: #EAF7B7 !important;
-    border: 20px solid #CCF528 !important;
+    background-color: #eaf7b7 !important;
+    border: 20px solid #ccf528 !important;
 }
 
 .modal-product {
@@ -1513,27 +1512,26 @@ a.aboutus-more:active {
 }
 
 .border-product-damasco {
-    border-left: 20px solid #F6C547;
+    border-left: 20px solid #f6c547;
 }
 .border-product-mosto-verde {
-    border-left: 20px solid #5FF647;
+    border-left: 20px solid #5ff647;
 }
 .border-product-uva-italia {
-    border-left: 20px solid #99FF49;
+    border-left: 20px solid #99ff49;
 }
-.border-product-arandano  {
-    border-left: 20px solid #CB97D3;
+.border-product-arandano {
+    border-left: 20px solid #cb97d3;
 }
 .border-product-hierba-luisa {
-    border-left: 20px solid #D4B870;
+    border-left: 20px solid #d4b870;
 }
 .border-product-manzanilla {
-    border-left: 20px solid #CCF528;
+    border-left: 20px solid #ccf528;
 }
 .border-product-cogollito {
-    border-left: 20px solid #6FF29C;
+    border-left: 20px solid #6ff29c;
 }
-
 
 .border-product {
     border-left: 20px solid #5ff647;
@@ -1541,6 +1539,22 @@ a.aboutus-more:active {
 
 .call-section {
     background-color: var(--bg-light);
+}
+
+@media (min-width: 332px) {
+    .call-section {
+        padding-top: 300px;
+    }
+}
+@media (min-width: 475px) {
+    .call-section {
+        padding-top: 200px;
+    }
+}
+@media (min-width: 576px) {
+    .call-section {
+        padding-top: 100px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1557,13 +1571,13 @@ a.aboutus-more:active {
     .icon-modal {
         display: none;
     }
-    .call-section {
-        padding-top: 108px;
-    }
+    /* .call-section {
+        padding-top: 128px;
+    } */
 }
 @media (min-width: 768px) {
     .call-section {
-        padding-top: 308px;
+        padding-top: 64px;
     }
 }
 
