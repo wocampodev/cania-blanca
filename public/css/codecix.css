@@ -103,6 +103,10 @@ body::before {
     font-family: var(--font-app), sans-serif !important;
 }
 
+.color-black{
+    color: #00070c;
+}
+
 .section-title {
     font-family: var(--font-app), sans-serif !important;
 
@@ -1376,10 +1380,37 @@ a.aboutus-more:active {
 ================================
 */
 /* NUEVOS CAMBIOS */
+.bg-products{
+    background-color: #dce3ff !important;
+}
 
 .bg-adornos-damasco {
     position: relative;
     background-color: #FAE7B6;
+}
+.bg-adornos-cogollito  {
+    position: relative;
+    background-color: #D9F8E3;
+}
+.bg-adornos-manzanilla  {
+    position: relative;
+    background-color: #EAF7B7;
+}
+.bg-adornos-arandano {
+    position: relative;
+    background-color: #EBD7FB;
+}
+.bg-adornos-uva-italia {
+    position: relative;
+    background-color: #CCFDA5;
+}
+.bg-adornos-mosto-verde {
+    position: relative;
+    background-color: #C0FAB6;
+}
+.bg-adornos-hierba-luisa {
+    position: relative;
+    background-color: #F1E7CE;
 }
 
 
@@ -1430,6 +1461,35 @@ a.aboutus-more:active {
     border: 20px solid #013565 !important;
 }
 
+.modal-content-damasco {
+    background-color: #FAE7B6 !important;
+    border: 20px solid #F6C547 !important;
+}
+.modal-content-mosto-verde {
+    background-color: #C0FAB6 !important;
+    border: 20px solid #5FF647 !important;
+}
+.modal-content-uva-italia {
+    background-color: #CCFDA5 !important;
+    border: 20px solid #99FF49 !important;
+}
+.modal-content-arandano {
+    background-color: #EBD7FB !important;
+    border: 20px solid #CB97D3 !important;
+}
+.modal-content-hierba-luisa {
+    background-color: #EAF7B7 !important;
+    border: 20px solid #CCF528 !important;
+}
+.modal-content-cogollito {
+    background-color: #D9F8E3 !important;
+    border: 20px solid #6FF29C !important;
+}
+.modal-content-manzanilla {
+    background-color: #EAF7B7 !important;
+    border: 20px solid #CCF528 !important;
+}
+
 .modal-product {
     position: relative;
 }
@@ -1455,6 +1515,25 @@ a.aboutus-more:active {
 .border-product-damasco {
     border-left: 20px solid #F6C547;
 }
+.border-product-mosto-verde {
+    border-left: 20px solid #5FF647;
+}
+.border-product-uva-italia {
+    border-left: 20px solid #99FF49;
+}
+.border-product-arandano  {
+    border-left: 20px solid #CB97D3;
+}
+.border-product-hierba-luisa {
+    border-left: 20px solid #D4B870;
+}
+.border-product-manzanilla {
+    border-left: 20px solid #CCF528;
+}
+.border-product-cogollito {
+    border-left: 20px solid #6FF29C;
+}
+
 
 .border-product {
     border-left: 20px solid #5ff647;

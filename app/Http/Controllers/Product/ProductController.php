@@ -19,12 +19,15 @@ class ProductController extends Controller
                 'Unas gotas de limón.',
             ],
             'main_img' => './assets/images/products/mosto_verde.png',
+            'color_dark'=> 'border-product-mosto-verde',
+            'color_light'=> 'bg-adornos-mosto-verde',
+            'color_border_modal'=> 'modal-content-mosto-verde',
         ],
         'macerado-damascos' => [
             'name' => 'MACERADO EN DAMASCOS',
             'description-long' => 'Nuestro fino destilado recibe los frutos del damasco deshidratado, que en un tiempo prolongado estos frutos se embeben del licor circundante soltando a la vez sus aromas y azucares propios de las frutas, como la conocida fructosa. La presión de vapor del alcohol juega un papel preponderante para penetrar en el fruto y suceda el intercambio volumétrico con sus azucares. El resultado es un fino destilado con agradables sabores de la fruta.',
             'description-short' => 'Al tomarlo puro podrá degustar el dulzor natural del damasco, su naturaleza y consistencia que envuelven al paladar.',
-            'suggest' => 'Sunrise',
+            'suggest' => 'sunrise',
             'preparation' => [
                 'En un vaso alto agregar hielo.',
                 'Añadir CAÑABLANCA Macerado en Damasco sobre el hielo.',
@@ -34,6 +37,7 @@ class ProductController extends Controller
             'main_img' => './assets/images/products/macerado_damascos.png',
             'color_dark'=> 'border-product-damasco',
             'color_light'=> 'bg-adornos-damasco',
+            'color_border_modal'=> 'modal-content-damasco',
         ],
         'uva-italia' => [
             'name' => 'UVA ITALIA',
@@ -47,6 +51,9 @@ class ProductController extends Controller
                 'Se decora con una rodaja de piña.',
             ],
             'main_img' => './assets/images/products/uva_italia.png',
+            'color_dark'=> 'border-product-uva-italia',
+            'color_light'=> 'bg-adornos-uva-italia',
+            'color_border_modal'=> 'modal-content-uva-italia',
         ],
         'macerado-arandanos' => [
             'name' => 'MACERADO EN ARANDANOS',
@@ -60,6 +67,9 @@ class ProductController extends Controller
                 'Asegurar que se viertan los frutos secos de arándano en el vaso.',
             ],
             'main_img' => './assets/images/products/macerado_arandanos.png',
+            'color_dark'=> 'border-product-arandano',
+            'color_light'=> 'bg-adornos-arandano',
+            'color_border_modal'=> 'modal-content-arandano',
         ],
         'hierba-luisa' => [
             'name' => 'HIERBA LUISA',
@@ -73,6 +83,9 @@ class ProductController extends Controller
                 'Adicionar solo un poco de gaseosa de Jengibre o Evervess.',
             ],
             'main_img' => './assets/images/products/hierba_luisa.png',
+            'color_dark'=> 'border-product-hierba-luisa',
+            'color_light'=> 'bg-adornos-hierba-luisa',
+            'color_border_modal'=> 'modal-content-hierba-luisa',
         ],
         'manzanilla' => [
             'name' => 'MANZANILLA',
@@ -85,6 +98,9 @@ class ProductController extends Controller
                 'Completar a tres cuartos del vaso con gaseosa de jengibre o Evervess',
             ],
             'main_img' => './assets/images/products/manzanilla.png',
+            'color_dark'=> 'border-product-manzanilla',
+            'color_light'=> 'bg-adornos-manzanilla',
+            'color_border_modal'=> 'modal-content-manzanilla',
         ],
         'cogollito' => [
             'name' => 'COGOLLITO',
@@ -99,6 +115,9 @@ class ProductController extends Controller
                 'Unas gotas de limón',
             ],
             'main_img' => './assets/images/products/cogollito.png',
+            'color_dark'=> 'border-product-cogollito',
+            'color_light'=> 'bg-adornos-cogollito',
+            'color_border_modal'=> 'modal-content-cogollito',
         ],
     ];
 

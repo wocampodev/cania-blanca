@@ -1,4 +1,4 @@
-<section class="featured-products product-img-list bg-adornos">
+<section class="featured-products product-img-list bg-products">
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-md-7 heading-section text-center client-animate">

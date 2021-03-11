@@ -1,17 +1,17 @@
 <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable" role="document">
-        <div class="modal-content w-100 h-75 modal-product">
+        <div class="{{$product['color_border_modal']}} w-100 h-75 modal-product">
             <div class="modal-header m-title">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <h3 class="texto-principal text-right pr-3">Recuperando nuestra identidad</h3>
+            {{-- <h3 class="texto-principal text-center color-black">Recuperando nuestra identidad</h3> --}}
             <div class="modal-body d-flex justify-content-center align-items-center">
                 <div class="py-0">
-                    <h4 class="text texto-principal">Ideal para un {{ $product['suggest'] }}</h4>
-                    <p class="text mt-1">{{ $product['description-short'] }}</p>
-                    <h5 class="text texto-principal mt-3">El mejor cóctel</h5> <br>
+                    <h4 class="text texto-principal ">Ideal para un {{ $product['suggest'] }}</h4>
+                    {{-- <p class="text mt-1">{{ $product['description-short'] }}</p> --}}
+                    {{-- <h5 class="text texto-principal mt-3">El mejor cóctel</h5> <br> --}}
                     <?php $count = 1; ?>
                     @foreach($product['preparation'] as $preparation)
                     <ul>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="icon-modal"></div>
+            {{-- <div class="icon-modal"></div> --}}
         </div>
     </div>
 </div>
