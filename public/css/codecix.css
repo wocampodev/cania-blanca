@@ -1383,6 +1383,7 @@ a.aboutus-more:active {
 /* NUEVOS CAMBIOS */
 .bg-products {
     background-color: #dce3ff !important;
+    position: relative;
 }
 
 .bg-adornos-damasco {
@@ -1441,10 +1442,6 @@ a.aboutus-more:active {
 
 .content-card {
     background: #fafafa;
-}
-
-.altura-seccion-producto {
-    height: 91vh;
 }
 
 .producto-imagen {
@@ -1540,22 +1537,7 @@ a.aboutus-more:active {
 
 .call-section {
     background-color: var(--bg-light);
-}
-
-@media (min-width: 332px) {
-    .call-section {
-        padding-top: 300px;
-    }
-}
-@media (min-width: 475px) {
-    .call-section {
-        padding-top: 200px;
-    }
-}
-@media (min-width: 576px) {
-    .call-section {
-        padding-top: 100px;
-    }
+    padding-top: 64px;
 }
 
 @media (max-width: 768px) {
@@ -1565,26 +1547,13 @@ a.aboutus-more:active {
     .imagen-producto {
         height: 480px;
     }
-    .altura-seccion-producto {
-        padding-bottom: 120px;
-        margin-bottom: 120px;
-    }
     .icon-modal {
         display: none;
     }
-    /* .call-section {
-        padding-top: 128px;
-    } */
 }
 @media (min-width: 768px) {
-    .call-section {
-        padding-top: 64px;
-    }
-}
-
-@media (min-width: 992px) {
-    .call-section {
-        padding-top: 0;
+    .altura-seccion-producto {
+        height: 91vh;
     }
 }
 
