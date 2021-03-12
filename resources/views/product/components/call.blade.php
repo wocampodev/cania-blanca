@@ -9,8 +9,8 @@
                 <div class="float-rt text-right">
                     <ul class="buttons">
                         <li class="green"></li>
-                        {{-- <li><a href="{{ route('contact') }}" class="btn button-style">Contáctanos</a></li> --}}
-                        <a href="{{ route('products.all') }}" class="btn button-style">Nuestros desilados</a>
+                        <li><a href="{{ route('contact') }}" class="btn button-style">Contáctanos</a></li>
+                        {{-- <a href="{{ route('products.all') }}" class="btn button-style">Nuestros desilados</a> --}}
                     </ul>
                 </div>
             </div>
