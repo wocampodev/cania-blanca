@@ -195,6 +195,7 @@ body::before {
     width: 224px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #253a69;
 }
 
 .blockquote {
@@ -677,6 +678,17 @@ label {
     object-fit: cover;
     object-position: center;
     border-radius: 10px 10px 0 0;
+}
+
+.product-img-content-detail {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
 }
 
 /*
@@ -1510,29 +1522,29 @@ a.aboutus-more:active {
 }
 
 .border-product-damasco {
-    border-left: 20px solid #f6c547;
+    border-left: 10px solid #f6c547;
 }
 .border-product-mosto-verde {
-    border-left: 20px solid #5ff647;
+    border-left: 10px solid #5ff647;
 }
 .border-product-uva-italia {
-    border-left: 20px solid #99ff49;
+    border-left: 10px solid #99ff49;
 }
 .border-product-arandano {
-    border-left: 20px solid #cb97d3;
+    border-left: 10px solid #cb97d3;
 }
 .border-product-hierba-luisa {
-    border-left: 20px solid #d4b870;
+    border-left: 10px solid #d4b870;
 }
 .border-product-manzanilla {
-    border-left: 20px solid #ccf528;
+    border-left: 10px solid #ccf528;
 }
 .border-product-cogollito {
-    border-left: 20px solid #6ff29c;
+    border-left: 10px solid #6ff29c;
 }
 
 .border-product {
-    border-left: 20px solid #5ff647;
+    border-left: 10px solid #5ff647;
 }
 
 .call-section {

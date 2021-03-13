@@ -15586,7 +15586,7 @@ h3.title-main {
     -o-background-size: cover;
     -ms-background-size: cover;
     /* min-height: 800px; */
-    min-height: 66vh;
+    min-height: 90vh;
     min-width: 320px;
     width: 100%;
     display: flex;

@@ -16,9 +16,9 @@
             </div>
         </div>
         <div class="row mt-5">
-            <div class="col-xs-12 col-md-6">
-                <figure>
-                    <img class="img-fluid rounded" src="{{ asset('assets/images/products/azul_ancha.jpg') }}" alt="">
+            <div class="col-xs-12 col-md-6 d-flex align-items-center">
+                <figure class="w-100">
+                    <img class="img-fluid rounded " src="{{ asset('assets/images/products/azul_ancha.jpg') }}" alt="">
                 </figure>
             </div>
             <div class="col-xs-12 col-md-6">
@@ -39,7 +39,7 @@
                 <p class="pt-3">Usamos la variedad Chicama 32 que es una caña blanca propia de la región y muy usada desde antaño, suave y de gran sabor y dulzor;muy jugosa y apetecible.</p>
                 <p class="pt-3">Nuestro producto es el único procesado con tecnología que hacen los piscos peruanos, es por ello su gran pureza y sabor; tanto lascabezas como las colas son separadas debidamente, quedando así un destilado de alta calidad con parámetros permisibles mundialmente para elconsumo humano.</p>
             </div>
-            <div class="col-xs-12 col-md-6">
+            <div class="col-xs-12 col-md-6 d-flex align-items-center">
                 <figure>
                     <img class="img-fluid rounded" src="{{ asset('assets/images/products/roja_ancha.jpg') }}" alt="">
                 </figure>
