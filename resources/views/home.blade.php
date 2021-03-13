@@ -14,7 +14,7 @@
     
     @include('home.components.brand')
 
-    @include('home.components.client')
+    {{-- @include('home.components.client') --}}
 
     @include('home.components.culture')
     

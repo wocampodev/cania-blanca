@@ -28,7 +28,7 @@
                         <div class="d-flex justify-content-center">
                             <button class="btn btn-md button-style" id="btn-submit" type="button" value="Enviar">
                                 <span class="spinner-border spinner spinner-border-sm d-none" role="status" aria-hidden="true"></span>
-                                <span class="text-white text-uppercase">Pedir</span>
+                                <span class="text-white text-uppercase">ENVIAR</span>
                               </button>
                         </div>
                     </div>
