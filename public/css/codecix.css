@@ -189,7 +189,7 @@ body::before {
 
 .main-button {
     position: absolute;
-    top: 95%;
+    top: 97%;
     left: 0;
     right: 0;
     width: 224px;
@@ -567,7 +567,7 @@ label {
 }
 
 .form-control:focus {
-    border: 1px solid var(--secondary-color) !important;
+    border: 2px solid var(--secondary-color) !important;
     box-shadow: 2px 2px rgba(233, 226, 226, 0.8) !important;
 }
 

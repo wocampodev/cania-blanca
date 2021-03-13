@@ -8380,7 +8380,7 @@ button.bg-dark:focus {
     right: 0;
     left: 0;
     z-index: 1030;
-    background: var(--header-bg-color);
+    background: #FAFAFA;
     border-bottom: 1px solid var(--header-border-color);
 }
 
@@ -15586,12 +15586,13 @@ h3.title-main {
     -o-background-size: cover;
     -ms-background-size: cover;
     /* min-height: 800px; */
-    min-height: 90vh;
+    min-height: 75vh;
     min-width: 320px;
     width: 100%;
     display: flex;
     align-items: center;
     position: relative;
+    margin-top: 84px;
 }
 
 @media (max-width: 960px) {
@@ -16202,7 +16203,7 @@ h3.title-big {
 /* //promocode section */
 /* footer */
 .w3l-footer-16 .w3l-footer-16-main {
-    background: var(--bg-color);
+    background: #FAFAFA;
     padding: 5em 0 4em;
 }
 
