@@ -15579,28 +15579,20 @@ h3.title-main {
 /*-- //title style --*/
 /*-- banner --*/
 .w3l-banner {
-    background: url(../assets/images/banner-main.png) no-repeat center;
+    background: url(../assets/images/backgrounds/banner-main-xs.png) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     /* min-height: 800px; */
-    min-height: 75vh;
+    height: 75vh;
     min-width: 320px;
     width: 100%;
     display: flex;
     align-items: center;
     position: relative;
     margin-top: 84px;
-}
-
-@media (max-width: 960px) {
-    .w3l-banner {
-        background: url(../assets/images/banner-main-mobile.png) no-repeat
-            center;
-        width: 100vw;
-    }
 }
 
 .w3l-banner h3 {

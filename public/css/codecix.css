@@ -1573,3 +1573,30 @@ a.aboutus-more:active {
     border: 2px solid #013565;
     border-radius: 16px;
 }
+
+/* BANNER */
+
+@media (min-width: 576px) {
+    .w3l-banner {
+        background: url(../assets/images/backgrounds/banner-main-sm.png) no-repeat
+            center;
+        width: 100vw;
+        height: 50vh;
+    }
+}
+@media (min-width: 960px) {
+    .w3l-banner {
+        background: url(../assets/images/backgrounds/banner_main-md.png) no-repeat
+            center;
+        width: 100vw;
+        height: 50vh;
+    }
+}
+@media (min-width: 1280px) {
+    .w3l-banner {
+        background: url(../assets/images/backgrounds/banner_main_lg.png) no-repeat
+            center;
+        width: 100vw;
+        height: 75vh;
+    }
+}
