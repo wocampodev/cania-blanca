@@ -1578,7 +1578,7 @@ a.aboutus-more:active {
 
 @media (min-width: 576px) {
     .w3l-banner {
-        background: url(../assets/images/backgrounds/banner-main-sm.png) no-repeat
+        background: url(../assets/images/backgrounds/banner_main_sm.png) no-repeat
             center;
         width: 100vw;
         height: 50vh;
@@ -1586,7 +1586,7 @@ a.aboutus-more:active {
 }
 @media (min-width: 960px) {
     .w3l-banner {
-        background: url(../assets/images/backgrounds/banner_main-md.png) no-repeat
+        background: url(../assets/images/backgrounds/banner_main_md.png) no-repeat
             center;
         width: 100vw;
         height: 50vh;
