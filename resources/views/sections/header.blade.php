@@ -1,5 +1,5 @@
 <header id="site-header" class="fixed-top shadow-sm" style="z-index: 9999;border-style: hidden;">
-    <div class="px-lg-6 px-sm-4 px-md-5 px-xs-3">
+    <div class="px-lg-6 px-sm-4 px-md-5 px-3">
         <nav class="navbar navbar-expand-lg stroke px-0" style="position: relative; z-index: 999;">
             <a class="navbar-brand" href="{{ url('/') }}">
                 <img src="{{ asset('assets/images/logo.png') }}" alt="Caña Blanca" title="Caña Blanca" style="height:55px;" />
