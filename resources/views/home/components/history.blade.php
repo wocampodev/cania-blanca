@@ -28,7 +28,7 @@
                     </strong>
                     <br>
                     <br>
-                    <span><b>- Paul Alfonso Huanambal Mimbela</b></span>
+                    <span><b>- Ing. Cesar Fernando García Mimbela</b></span>
                 </p>
             </div>
         </div>
