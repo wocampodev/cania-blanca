@@ -1549,7 +1549,7 @@ a.aboutus-more:active {
 
 .call-section {
     background-color: var(--bg-light);
-    padding-top: 64px;
+    padding-top: 150px;
 }
 
 @media (max-width: 768px) {
@@ -1567,6 +1567,8 @@ a.aboutus-more:active {
     .altura-seccion-producto {
         height: 91vh;
     }
+
+   
 }
 
 .form-control {

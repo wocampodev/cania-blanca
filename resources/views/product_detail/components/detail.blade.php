@@ -32,7 +32,7 @@
 
 
                 <div class="col-lg-12" >
-                    <img class="img-fluid product-img-content-detail img-round" src="{{ $product['main_img'] }}" alt="{{ $product['name'] }}" loading="lazy">
+                    <img class="img-fluid product-img-content-detail img-round " src="{{ $product['main_img'] }}" alt="{{ $product['name'] }}" loading="lazy">
                 </div>
 
                 {{-- <div class="col-lg-12  d-flex justify-content-center align-items-center mt-5">

@@ -1,4 +1,4 @@
-<section class="w3l-footer-16">
+<section class="w3l-footer-16" >
     <div class="w3l-footer-16-main">
         <div class="container">
             <div class="row footer-p">
