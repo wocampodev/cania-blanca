@@ -18,7 +18,7 @@
         <div class="row mt-5">
             <div class="col-xs-12 col-md-6 d-flex align-items-center">
                 <figure class="w-100">
-                    <img class="img-fluid rounded " src="{{ asset('assets/images/products/azul_ancha.jpg') }}" alt="">
+                    <img class="img-fluid rounded " src="{{ asset('assets/images/products/azul_ancha_border.png') }}" alt="">
                 </figure>
             </div>
             <div class="col-xs-12 col-md-6 d-flex align-items-center">
@@ -43,7 +43,7 @@
             </div>
             <div class="col-xs-12 col-md-6 d-flex align-items-center">
                 <figure>
-                    <img class="img-fluid rounded" src="{{ asset('assets/images/products/roja_ancha.jpg') }}" alt="">
+                    <img class="img-fluid rounded" src="{{ asset('assets/images/products/roja_ancha_border.png') }}" alt="">
                 </figure>
             </div>
         </div>
