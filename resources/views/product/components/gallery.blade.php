@@ -9,7 +9,7 @@
             @foreach ($products as $key => $product)
             <div class="col-lg-4 col-md-6 col-sm-12" style="position: static; z-index: 1;">
                 <div class="product-item shadow rounded">
-                    <img class="img-fluid product-img-content" src="{{ $product['main_img'] }}" alt="{{ $product['name'] }}" loading="lazy">
+                    <img class="img-fluid product-img-content" src="{{ $product['gallery_img'] }}" alt="{{ $product['name'] }}" loading="lazy">
                     <div class="content content-card">
                         {{-- <div class="type">
                             <img class="img-fluid product-img-culture" src="{{ asset('assets/images/moche.svg') }}" alt="Iconografía Moche" loading="lazy">
