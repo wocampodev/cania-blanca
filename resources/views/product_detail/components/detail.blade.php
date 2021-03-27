@@ -2,7 +2,6 @@
     <div class="container-fluid altura-seccion-producto mw-100 mt-4">
         <div class="row h-100">
 
-
             <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center
             {{$product['color_dark']}} " style="background-color: #FAFAFA; ">
                 <div class="pt-5 pb-md-3 pb-xs-5">
@@ -30,21 +29,11 @@
 
             <div class="col-lg-6 col-sm-12 mt-lg-0  {{$product['color_light']}} imagen-producto d-flex justify-content-center align-items-center">
 
-
                 <div class="col-lg-12" >
                     <img class="img-fluid product-img-content-detail img-round" src="{{ $product['main_img'] }}" alt="{{ $product['name'] }}" loading="lazy">
                 </div>
 
-                {{-- <div class="col-lg-12  d-flex justify-content-center align-items-center mt-5">
-                    <img src="{{ asset('assets/images/botella-sin-fondo.png') }}" alt="{{ $product['name'] }}" loading="lazy" class="img-fluid rounded producto-imagen">
-                    <div class="bg-adornos-1"></div>
-                    <div class="bg-adornos-2"></div>
-                </div> --}}
-
-
             </div>
-
-
 
         </div>
     </div>
