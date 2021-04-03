@@ -11,8 +11,8 @@
                     <p class="mt-4 text-center">
                         <span class="fa fa-phone mr-2 ml-2" aria-hidden="true"></span>
                         <a class="call-style-w3" href="tel:51939204100">(+51) 939 204 100</a></p>
-                    <p class="mt-1 text-center font-weight-bold"> Ing. Cesar F. García Mimbela </p>
-                    <p class="mt-1 text-center font-weight-bold"> Ing. Paul A. Huanambal Mimbela </p>
+                    <p class="mt-1 text-center font-weight-bold"> Ing. Cesar García Mimbela </p>
+                    <p class="mt-1 text-center font-weight-bold"> Ing. Paul Huanambal Mimbela </p>
                 </div>
                 <div class="col-md-3 mt-lg-0 mt-4">
                     <h3 class="text-center">Navegación</h3>
