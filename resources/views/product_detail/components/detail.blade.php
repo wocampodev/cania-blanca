@@ -7,7 +7,7 @@
                 <div class="pt-5 pb-md-3 pb-xs-5">
                     <span class="texto-principal text-lg text-center text d-block"><b>CAÑABLANCA</b></span>
                     <h2 class="text-center text-lg mt-3"><b>{{ $product['name'] }}</b></h2>
-                    <p class="mt-5 text-left-justify font-weight-bold px-4 h5">{{ $product['description-short'] }}</p>
+                    <p class="mt-5 text-justify font-weight-bold px-4 h5">{{ $product['description-short'] }}</p>
                     <p class="text-justify  px-4 h6">{{ $product['description-long'] }}</p>
                     <div class="col-md-12 justify-content-center px-5 mt-5">
                         <div class=" d-flex align-items-center justify-content-left">
