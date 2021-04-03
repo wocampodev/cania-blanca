@@ -8,7 +8,7 @@
                     <span class="texto-principal text-lg text-center text d-block"><b>CAÑABLANCA</b></span>
                     <h2 class="text-center text-lg mt-3"><b>{{ $product['name'] }}</b></h2>
                     <p class="mt-5 text-center font-weight-bold px-4 h5">{{ $product['description-short'] }}</p>
-                    <p class="text-center px-4 h6">{{ $product['description-long'] }}</p>
+                    <p class="text-justify  px-4 h6">{{ $product['description-long'] }}</p>
                     <div class="col-md-12 justify-content-center px-5 mt-5">
                         <div class=" d-flex align-items-center justify-content-left">
                             <span class="h5 align-self-center d-inline-block color-black">Ideal para un {{ $product['suggest'] }}</span>
