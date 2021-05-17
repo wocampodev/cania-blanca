@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-sm-12 col-xs-12 mx-auto text-center">
                 <h2 class="title">CAÑABLANCA es tradición</h2>
-                <p class=" pt-3">Al igual que el pisco en el sur, el aguardiente o destilado de caña, toma identidad regional y se apodera de los gustos de los lugareños.</p>
+                <p class=" pt-3">Al igual que el pisco en el sur, el aguardiente o destilado de caña, toma identidad de nuestra región Lambayeque y se apodera de los gustos de los lugareños.</p>
             </div>
         </div>
         <div class="row mt-5">
@@ -28,7 +28,7 @@
                     </strong>
                     <br>
                     <br>
-                    <span><b>- Ing. Cesar Fernando García Mimbela</b></span>
+                    <span><b>- Ing. Paul Huananbal Mimbela</b></span>
                 </p>
             </div>
         </div>
@@ -38,6 +38,10 @@
                     <h3 class="pt-3 text-center">¿Por qué elegir a CAÑABLANCA?</h3>
                     <p class="pt-3">CAÑABLANCA es un fino destilado de alta gama, que ofrece sabores y aromas agradables y propios de aquellos destilados de antañoque lo hicieron preferente entre la población por su cuerpo seco y ligero.</p>
                     <p class="pt-3">Usamos la variedad Chicama 32 que es una caña blanca propia de la región y muy usada desde antaño, suave y de gran sabor y dulzor;muy jugosa y apetecible.</p>
+
+                    <br>
+                    <br>
+                    <span><b>- Ing. Cesar Fernando García Mimbela</b></span>
                 </div>
                 {{-- <p class="pt-3">Nuestro producto es el único procesado con tecnología que hacen los piscos peruanos, es por ello su gran pureza y sabor; tanto lascabezas como las colas son separadas debidamente, quedando así un destilado de alta calidad con parámetros permisibles mundialmente para elconsumo humano.</p> --}}
             </div>
