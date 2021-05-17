@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-sm-12 col-xs-12 mx-auto text-center">
                 <h2 class="title">CAÑABLANCA es tradición</h2>
-                <p class=" pt-3">Al igual que el pisco en el sur, el aguardiente o destilado de caña, toma identidad de nuestra región Lambayeque y se apodera de los gustos de los lugareños.</p>
+                <p class=" pt-3">Al igual que el pisco en el sur, el aguardiente o destilado de caña, toma identidad de nuestra región <b>Lambayeque</b> y se apodera de los gustos de los lugareños.</p>
             </div>
         </div>
         <div class="row mt-5">
