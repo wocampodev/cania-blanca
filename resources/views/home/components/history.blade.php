@@ -28,7 +28,7 @@
                     </strong>
                     <br>
                     <br>
-                    <span><b>- Ing. Paul Huananbal Mimbela</b></span>
+                    <span><b>- Ing. Cesar Fernando García Mimbela</b></span>
                 </p>
             </div>
         </div>
@@ -41,7 +41,8 @@
 
                     <br>
                     <br>
-                    <span><b>- Ing. Cesar Fernando García Mimbela</b></span>
+                    <span><b>- Ing. Paul Huananbal Mimbela</b></span>
+                    
                 </div>
                 {{-- <p class="pt-3">Nuestro producto es el único procesado con tecnología que hacen los piscos peruanos, es por ello su gran pureza y sabor; tanto lascabezas como las colas son separadas debidamente, quedando así un destilado de alta calidad con parámetros permisibles mundialmente para elconsumo humano.</p> --}}
             </div>
