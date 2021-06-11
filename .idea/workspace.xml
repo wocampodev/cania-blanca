@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2580092f-05a4-4210-880f-6bd0e87ea1f3" name="Default Changelist" comment="" />
+    <list default="true" id="2580092f-05a4-4210-880f-6bd0e87ea1f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/resources/metas.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Web/SolicitudeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Web/SolicitudeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/codecix.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/codecix.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about/components/data.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about/components/data.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact/components/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact/components/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/components/brand.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/components/brand.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/components/culture.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/components/culture.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/components/history.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/components/history.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product/components/call.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product/components/call.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product/components/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product/components/gallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product_detail/components/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product_detail/components/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sections/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sections/footer.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,6 +149,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1q5yZi9n3IZuanBhCTC8PM0lhDW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -165,6 +186,7 @@
       <workItem from="1616609882045" duration="237000" />
       <workItem from="1616812586207" duration="1070000" />
       <workItem from="1621267993777" duration="29000" />
+      <workItem from="1623427535756" duration="4645000" />
     </task>
     <servers />
   </component>
@@ -181,6 +203,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

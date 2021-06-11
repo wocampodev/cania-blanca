@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
                 <div class="cania-img">
-                    <img src="{{ asset('assets/images/cania-azucar-icono.png') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('assets/images/cania-azucar-icono.png') }}" class="img-fluid" alt="caña-azucar-cañablanca">
                 </div>
             </div>
         </div>
@@ -11,14 +11,14 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-xs-12 mx-auto text-center">
-                <h2 class="title">CAÑABLANCA es tradición</h2>
+                <h1 class="title h2">CAÑABLANCA es tradición</h1>
                 <p class=" pt-3">Al igual que el pisco en el sur, el aguardiente o destilado de caña, toma identidad de nuestra región <b>Lambayeque</b> y se apodera de los gustos de los lugareños.</p>
             </div>
         </div>
         <div class="row mt-5">
             <div class="col-xs-12 col-md-6 d-flex align-items-center">
                 <figure class="w-100">
-                    <img class="img-fluid rounded " src="{{ asset('assets/images/products/azul_ancha_border.png') }}" alt="">
+                    <img class="img-fluid rounded " src="{{ asset('assets/images/products/azul_ancha_border.png') }}" alt="cañablanca-mosto-verde">
                 </figure>
             </div>
             <div class="col-xs-12 col-md-6 d-flex align-items-center">
@@ -42,13 +42,13 @@
                     <br>
                     <br>
                     <span><b>- Ing. Paul Huananbal Mimbela</b></span>
-                    
+
                 </div>
                 {{-- <p class="pt-3">Nuestro producto es el único procesado con tecnología que hacen los piscos peruanos, es por ello su gran pureza y sabor; tanto lascabezas como las colas son separadas debidamente, quedando así un destilado de alta calidad con parámetros permisibles mundialmente para elconsumo humano.</p> --}}
             </div>
             <div class="col-xs-12 col-md-6 d-flex align-items-center">
                 <figure>
-                    <img class="img-fluid rounded" src="{{ asset('assets/images/products/roja_ancha_border.png') }}" alt="">
+                    <img class="img-fluid rounded" src="{{ asset('assets/images/products/roja_ancha_border.png') }}" alt="cañablanca-macerado-damazco">
                 </figure>
             </div>
         </div>

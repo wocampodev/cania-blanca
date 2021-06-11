@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Validator, Mail;
 use App\Mail\EmailQueryCompany;
 use App\Mail\EmailQueryClient;
@@ -11,17 +12,16 @@ use DB;
 
 class SolicitudeController extends Controller
 {
-    public function new_contact(Request $request){
+    public function new_contact(Request $request)
+    {
         // return $request;
-
-        
         $name = $request->name;
         $email = $request->email;
-        $phone =  $request->phone;
+        $phone = $request->phone;
         $company = $request->company;
         $message = $request->message;
 
-        $input  = [
+        $input = [
             'name' => $name,
             'email' => $email,
             'phone' => $phone,
@@ -35,16 +35,16 @@ class SolicitudeController extends Controller
         ];
 
         $validation = Validator::make($input, $rules);
-        
-        if ($validation->fails()){
-            $response = ['status'=>'fail-validate', 'errors' => $validation->errors()];
+
+        if ($validation->fails()) {
+            $response = ['status' => 'fail-validate', 'errors' => $validation->errors()];
             return $response;
         } else {
             //$data_company = Company::data_company();
             //$email_company = $data_company->email;
             //$email_company = 'fearless347@gmail.com';
-            // $email_company = 'canablanca.fino.destilado@gmail.com';
-            $email_company = 'jorgealvarobarreravasquez@gmail.com';
+             $email_company = 'canablanca.fino.destilado@gmail.com';
+//            $email_company = 'jorgealvarobarreravasquez@gmail.com';
 
             $client['name'] = $name;
             $client['email'] = $email;
@@ -53,7 +53,7 @@ class SolicitudeController extends Controller
             $client['description'] = $message;
 
             try {
-                DB::beginTransaction(); 
+                DB::beginTransaction();
                 // $new_solicitude = new Solicitude();
                 // $new_solicitude->name = $name;
                 // $new_solicitude->email = $email;
@@ -61,19 +61,22 @@ class SolicitudeController extends Controller
                 // $new_solicitude->phone = $phone;
                 // $new_solicitude->save();
 
-                $details = ['name'=>$name,'email'=>$email,'msg'=>$message,'phone'=>$phone];
+                $details = ['name' => $name, 'email' => $email, 'msg' => $message, 'phone' => $phone];
                 $confirm_solicitude = new EmailQueryCompany($client);
-                Mail::to($email_company)->send($confirm_solicitude); 
-                    
+//                dd($confirm_solicitude);
+                Mail::to($email_company)->send($confirm_solicitude);
+
                 $confirm_client = new EmailQueryClient($client);
-                Mail::to($email)->send($confirm_client); 
-                $response = ['status'=>'success'];
-                
+                Mail::to($email)->send($confirm_client);
+                $response = ['status' => 'success'];
+
                 // DB::commit();
-            }catch(\Exception $e) {
-                dd($e);  
+            } catch (\Exception $e) {
+                dd($e);
+                Log::error("Error email: " . $e);
+                Log::error("Error email: " . $e->getMessage());
                 // DB::rollback();
-                $response = ['status'=>'fail-send'];
+                $response = ['status' => 'fail-send'];
             }
             return $response;
         }

@@ -1,5 +1,4 @@
-const token = $('meta[name="csrf-token"]').attr("content");
-
+const token = $('meta[name="csrf-token"]').attr('content');
 const name = document.getElementById("name");
 const phone = document.getElementById("phone");
 const email = document.getElementById("email");

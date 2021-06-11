@@ -8,6 +8,7 @@
         -webkit-transform: rotate(359deg);
     }
 }
+
 @keyframes rotation {
     from {
         -webkit-transform: rotate(0deg);
@@ -69,6 +70,7 @@
     --header-border-color: #131617;
     --grey: #131617;
 }
+
 [data-theme="dark"] .story-img {
     scroll-snap-align: center;
     border-radius: 12px;
@@ -128,8 +130,7 @@ body::before {
 }
 
 .marca-imagen {
-    background: url(../assets/images/agricultor-marca.jpg) repeat var(--grey)
-        left center;
+    background: url(../assets/images/agricultor-marca.jpg) repeat var(--grey) left center;
     background-size: cover;
     overflow: hidden;
 }
@@ -138,6 +139,7 @@ body::before {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 .boton-enlace {
     padding-top: 30px;
     color: rgb(191, 142, 75);
@@ -149,6 +151,7 @@ body::before {
     display: block;
     border-width: 2px !important;
 }
+
 .hangover-bottle {
     z-index: 2;
     position: absolute;
@@ -181,6 +184,7 @@ body::before {
         display: none;
     }
 }
+
 /*
     ================================
             SECCIÓN HISTÓRICA
@@ -293,6 +297,7 @@ body::before {
     .section-story-overview .image-container {
         background-size: cover;
     }
+
     .image-container.image-left {
         margin-bottom: 220px;
     }
@@ -616,6 +621,16 @@ label {
     =====================================
 */
 
+.product-h1 {
+    position: relative;
+    z-index: 999;
+}
+
+.product-list {
+    position: static;
+    z-index: 1;
+}
+
 .product-img-list {
     padding-top: 70px;
     padding-bottom: 40px;
@@ -711,11 +726,13 @@ label {
 .page-item:first-child .page-link {
     margin-left: 0;
 }
+
 .pagination .nav-text {
     border: none;
     width: auto;
     height: auto;
 }
+
 .pagination .page-link {
     margin-left: 5px;
     height: 48px;
@@ -726,6 +743,7 @@ label {
     font-size: 13px;
     letter-spacing: 0.1em;
 }
+
 .page-link {
     position: relative;
     float: left;
@@ -764,6 +782,10 @@ label {
                 DETALLE PRODUCTO
     =====================================
 */
+
+.w-5 {
+    width: 5%
+}
 
 .col_half {
     display: block;
@@ -818,9 +840,11 @@ label {
     .heading-block h2 {
         font-size: 26px;
     }
+
     .heading-block h2 + span {
         font-size: 18px;
     }
+
     .heading-block ~ p:not(.lead) {
         font-size: 15px;
     }
@@ -987,6 +1011,18 @@ label {
                 CONTACTO
     =====================================
 */
+.contact-h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.resize-none {
+    resize: none;
+}
+
+.contact-section {
+    background-color: #ffffff;
+}
 
 #contact {
     width: 100%;
@@ -1184,15 +1220,18 @@ hr {
         float: none;
         margin: 10px auto;
     }
+
     .direct-contact-container {
         margin-top: 60px;
         max-width: 300px;
     }
+
     .social-media-list li {
         height: 60px;
         width: 60px;
         line-height: 60px;
     }
+
     .social-media-list li:after {
         width: 60px;
         height: 60px;
@@ -1205,6 +1244,7 @@ hr {
     .form-wrapper {
         margin: 0 auto;
     }
+
     .form-control,
     textarea {
         max-width: 340px;
@@ -1221,15 +1261,18 @@ hr {
         margin-top: 60px;
         max-width: 320px;
     }
+
     .social-media-list {
         left: 0;
     }
+
     .social-media-list li {
         height: 55px;
         width: 55px;
         line-height: 55px;
         font-size: 2rem;
     }
+
     .social-media-list li:after {
         width: 55px;
         height: 55px;
@@ -1256,6 +1299,7 @@ hr {
 .aboutus-section {
     padding: 90px 0;
 }
+
 .aboutus-title {
     font-size: 30px;
     letter-spacing: 0;
@@ -1266,6 +1310,7 @@ hr {
     text-transform: uppercase;
     color: var(--heading-color);
 }
+
 .aboutus-title::after {
     background: var(--secondary-color) none repeat scroll 0 0;
     bottom: 0;
@@ -1275,6 +1320,7 @@ hr {
     position: absolute;
     width: 54px;
 }
+
 .aboutus-text {
     color: var(--text-secondary);
     font-size: 1rem;
@@ -1287,6 +1333,7 @@ a.aboutus-more:active {
     text-decoration: none;
     outline: 0;
 }
+
 .aboutus-more {
     border: 1px solid var(--secondary-color);
     border-radius: 25px;
@@ -1311,6 +1358,7 @@ a.aboutus-more:active {
     width: 18%;
     fill: var(--secondary-color);
 }
+
 .feature .feature-box .iconset::after {
     background: var(--secondary-color) none repeat scroll 0 0;
     content: "";
@@ -1335,6 +1383,7 @@ a.aboutus-more:active {
     padding-left: 28px;
     width: 100%;
 }
+
 .feature .feature-box .feature-content h4 {
     color: var(--footer-color);
     font-size: 18px;
@@ -1342,11 +1391,13 @@ a.aboutus-more:active {
     line-height: 22px;
     margin: 0 0 5px;
 }
+
 .feature .feature-box .feature-content p {
     color: #606060;
     font-size: 1rem;
     line-height: 22px;
 }
+
 .icon {
     padding: 0px;
     font-size: 40px;
@@ -1402,26 +1453,32 @@ a.aboutus-more:active {
     position: relative;
     background-color: #fae7b6;
 }
+
 .bg-adornos-cogollito {
     position: relative;
     background-color: #d9f8e3;
 }
+
 .bg-adornos-manzanilla {
     position: relative;
     background-color: #eaf7b7;
 }
+
 .bg-adornos-arandano {
     position: relative;
     background-color: #ebd7fb;
 }
+
 .bg-adornos-uva-italia {
     position: relative;
     background-color: #ccfda5;
 }
+
 .bg-adornos-mosto-verde {
     position: relative;
     background-color: #c0fab6;
 }
+
 .bg-adornos-hierba-luisa {
     position: relative;
     background-color: #f1e7ce;
@@ -1474,26 +1531,32 @@ a.aboutus-more:active {
     background-color: #fae7b6 !important;
     border: 20px solid #f6c547 !important;
 }
+
 .modal-content-mosto-verde {
     background-color: #c0fab6 !important;
     border: 20px solid #5ff647 !important;
 }
+
 .modal-content-uva-italia {
     background-color: #ccfda5 !important;
     border: 20px solid #99ff49 !important;
 }
+
 .modal-content-arandano {
     background-color: #ebd7fb !important;
     border: 20px solid #cb97d3 !important;
 }
+
 .modal-content-hierba-luisa {
     background-color: #eaf7b7 !important;
     border: 20px solid #ccf528 !important;
 }
+
 .modal-content-cogollito {
     background-color: #d9f8e3 !important;
     border: 20px solid #6ff29c !important;
 }
+
 .modal-content-manzanilla {
     background-color: #eaf7b7 !important;
     border: 20px solid #ccf528 !important;
@@ -1524,21 +1587,27 @@ a.aboutus-more:active {
 .border-product-damasco {
     border-left: 10px solid #f6c547;
 }
+
 .border-product-mosto-verde {
     border-left: 10px solid #5ff647;
 }
+
 .border-product-uva-italia {
     border-left: 10px solid #99ff49;
 }
+
 .border-product-arandano {
     border-left: 10px solid #cb97d3;
 }
+
 .border-product-hierba-luisa {
     border-left: 10px solid #d4b870;
 }
+
 .border-product-manzanilla {
     border-left: 10px solid #ccf528;
 }
+
 .border-product-cogollito {
     border-left: 10px solid #6ff29c;
 }
@@ -1552,26 +1621,29 @@ a.aboutus-more:active {
     padding-top: 150px;
 }
 
-.imagen-producto{
+.imagen-producto {
     background-image: url('/assets/images/background_product_detail.jpg');
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 @media (max-width: 768px) {
     .border-product {
         border: none;
     }
+
     .imagen-producto {
         height: 480px;
     }
+
     .icon-modal {
         display: none;
     }
 }
+
 /*@media (min-width: 768px) {*/
 /*    .altura-seccion-producto {*/
 /*        height: 91vh;*/
@@ -1587,28 +1659,27 @@ a.aboutus-more:active {
 
 @media (min-width: 576px) {
     .w3l-banner {
-        background: url(../assets/images/backgrounds/banner_main_sm.png) no-repeat
-            center;
-            width: 100%;
+        background: url(../assets/images/backgrounds/banner_main_sm.png) no-repeat center;
+        width: 100%;
         height: 70vh;
         background-size: cover;
         object-fit: cover;
         object-position: center center;
     }
 }
+
 @media (min-width: 960px) {
     .w3l-banner {
-        background: url(../assets/images/backgrounds/banner_main_md.png) no-repeat
-            center;
-            width: 100%;
+        background: url(../assets/images/backgrounds/banner_main_md.png) no-repeat center;
+        width: 100%;
         height: 80vh;
         background-size: cover;
     }
 }
+
 @media (min-width: 1280px) {
     .w3l-banner {
-        background: url(../assets/images/backgrounds/banner_main_lg.png) no-repeat
-            center;
+        background: url(../assets/images/backgrounds/banner_main_lg.png) no-repeat center;
         width: 100%;
         height: 100vh;
         background-size: cover;
