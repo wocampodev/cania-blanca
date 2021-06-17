@@ -6,7 +6,7 @@
         @endcomponent
     @endslot
     
-    ![CAÑABLANCA FINO DESTILADO](https://mcc-refrigeracion.com/assets/img/frigoelectridelperu-seo.png)
+    ![CAÑABLANCA FINO DESTILADO](https://cana-blanca.com/assets/images/logo.png)
 
     {{-- Body --}}
     {{ $slot }}

@@ -39,8 +39,8 @@
 
 {
 "@context": "https://schema.org",
-"@type": "EducationalOrganization",
-"name": "Colegio Juan Abad",
+"@type": "Organization",
+"name": "CAÑABLANCA - Fino destilado",
 "alternateName": "CAÑABLANCA - Fino destilado",
 "url": "https://www.cana-blanca.com/",
 "logo": "https://www.cana-blanca.com/assets/images/logo.png",
@@ -64,6 +64,8 @@
 "https://www.instagram.com/canablanca_fino_destilado/"
 ]
 }
+
+
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4D5W9HSZTW"></script>
